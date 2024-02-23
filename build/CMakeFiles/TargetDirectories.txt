@@ -1,0 +1,4 @@
+/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles/menv.dir
+/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles/CopyShaders.dir
+/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles/edit_cache.dir
+/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles/rebuild_cache.dir
