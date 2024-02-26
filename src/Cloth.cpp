@@ -258,9 +258,9 @@ void Cloth::move(glm::vec3 direction){
     for(Particle* p : particles){
         if(p->Fixed){
             auto temp = p->Position + direction;
-            // if (temp.y > 0){
+            if (temp.y > -2){
                 p->Position = temp;
-            // }
+            }
         }
     }
 }

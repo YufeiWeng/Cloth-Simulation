@@ -3,8 +3,8 @@
 Ground::Ground() {
     color = glm::vec3(1.0f, 0.95f, 0.1f);
     model = glm::mat4(1.0f);
-    glm::vec3 cubeMin = glm::vec3(-5, -5, -5);
-    glm::vec3 cubeMax = glm::vec3(5, 5, 5);
+    glm::vec3 cubeMin = glm::vec3(-10, -2, -10);
+    glm::vec3 cubeMax = glm::vec3(10, 2, 10);
     positions = {
         // Bottom
         glm::vec3(cubeMin.x, cubeMin.y, cubeMin.z),

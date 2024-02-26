@@ -16,4 +16,5 @@ class Particle{
 
     void ApplyForce(glm::vec3 &f);
     void Integrate(float deltaTime);
+    void ApplyImpulse(const glm::vec3& imp);
 };

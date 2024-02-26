@@ -214,15 +214,27 @@ void Window::keyCallback(GLFWwindow* window, int key, int scancode, int action, 
 
             case GLFW_KEY_UP:
                 cloth->move(glm::vec3(0.0f, 0.1f , 0.0f));
+                break;
 
             case GLFW_KEY_DOWN:
                 cloth->move(glm::vec3(0.0f, -0.1f , 0.0f));
+                break;
 
-            // case GLFW_KEY_LEFT:
-            //     cloth->move(glm::vec3(-0.1f, 0.0f , 0.0f));
+            case GLFW_KEY_A:
+                cloth->move(glm::vec3(-0.1f, 0.0f , 0.0f));
+                break;
 
-            // case GLFW_KEY_RIGHT:
-            //     cloth->move(glm::vec3(0.1f, 0.0f , 0.0f));
+            case GLFW_KEY_D:
+                cloth->move(glm::vec3(0.1f, 0.0f , 0.0f));
+                break;
+
+            case GLFW_KEY_W:
+                cloth->move(glm::vec3(0.0f, 0.0f , -0.1f));
+                break;
+
+            case GLFW_KEY_S:
+                cloth->move(glm::vec3(0.0f, 0.0f , 0.1f));
+                break;
 
             default:
                 break;
