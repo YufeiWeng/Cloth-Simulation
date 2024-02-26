@@ -70,12 +70,8 @@ Cloth::Cloth() {
 
     updateNormal();
 
-    // Generate a vertex array (VAO) and two vertex buffer objects (VBO).
-    glGenVertexArrays(1, &VAO);
-    glGenBuffers(1, &VBO_positions);
-    glGenBuffers(1, &VBO_normals);
-    
-    render();
+    openGLbind();
+    // printf("openGLbind!");
 }
 
 void Cloth::update(float deltaTime){
@@ -90,7 +86,8 @@ void Cloth::update(float deltaTime){
         positions[p->ind] = p->Position;
     }
     updateNormal();
-    render();
+    openGLbind();
+    // printf("openGLbind!");
 }
 Cloth::~Cloth(){
     
@@ -129,7 +126,11 @@ void Cloth::updateNormal(){
     }
 }
 
-void Cloth::render() {
+void Cloth::openGLbind() {
+    // Generate a vertex array (VAO) and two vertex buffer objects (VBO).
+    glGenVertexArrays(1, &VAO);
+    glGenBuffers(1, &VBO_positions);
+    glGenBuffers(1, &VBO_normals);
 
     // Bind to the VAO.
     glBindVertexArray(VAO);

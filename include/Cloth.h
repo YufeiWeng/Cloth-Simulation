@@ -33,7 +33,7 @@ class Cloth {
 
     Cloth();
     ~Cloth();
-    void render();
+    void openGLbind();
     void draw(const glm::mat4& viewProjMtx, GLuint shader);
     void updateNormal();
     void update(float deltaTime);

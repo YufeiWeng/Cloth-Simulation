@@ -127,7 +127,10 @@ void Window::idleCallback() {
 
     // cube->update();
     // box->update();
-    cloth->update(1/60);
+    float deltaTime = 1.0f / 600.0f;
+    cloth->update(deltaTime);
+    // cloth->update(float(1/60));
+    
 }
 
 void Window::displayCallback(GLFWwindow* window) {
@@ -137,7 +140,7 @@ void Window::displayCallback(GLFWwindow* window) {
     // Render the object.
     // cube->draw(Cam->GetViewProjectMtx(), Window::shaderProgram);
     // box->draw(Cam->GetViewProjectMtx(), Window::shaderProgram);
-    ground->draw(Cam->GetViewProjectMtx(), Window::shaderProgram);
+    ground -> draw(Cam->GetViewProjectMtx(), Window::shaderProgram);
     cloth -> draw(Cam->GetViewProjectMtx(), Window::shaderProgram);
 
     // Gets events, including input such as keyboard and mouse or window resizing.
