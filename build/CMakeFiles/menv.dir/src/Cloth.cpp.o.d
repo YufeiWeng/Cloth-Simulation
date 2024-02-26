@@ -539,4 +539,7 @@ CMakeFiles/menv.dir/src/Cloth.cpp.o: \
   /opt/homebrew/include/glm/gtx/../gtc/../geometric.hpp \
   /opt/homebrew/include/glm/gtx/../gtc/../trigonometric.hpp \
   /opt/homebrew/include/glm/gtx/../gtc/../matrix.hpp \
-  /opt/homebrew/include/glm/gtx/transform.inl
+  /opt/homebrew/include/glm/gtx/transform.inl \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Particle.h \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/SpringDamper.h \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Triangle.h

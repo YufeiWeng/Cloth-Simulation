@@ -669,4 +669,8 @@ CMakeFiles/menv.dir/src/Window.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream \
-  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Ground.h
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Ground.h \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Cloth.h \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Particle.h \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/SpringDamper.h \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Triangle.h

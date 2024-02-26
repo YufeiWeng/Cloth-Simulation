@@ -435,9 +435,13 @@ CMakeFiles/menv.dir/main.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_pr
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdint.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Camera.h \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Cloth.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Cube.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Ground.h \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Particle.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Shader.h \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/SpringDamper.h \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Triangle.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Window.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/core.h \
   /opt/homebrew/include/GLFW/glfw3.h \
@@ -1918,6 +1922,9 @@ CMakeFiles/menv.dir/src/Cloth.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_m
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdint.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Cloth.h \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Particle.h \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/SpringDamper.h \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Triangle.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/core.h \
   /opt/homebrew/include/GLFW/glfw3.h \
   /opt/homebrew/include/glm/detail/setup.hpp \
@@ -5898,9 +5905,13 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdint.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Camera.h \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Cloth.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Cube.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Ground.h \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Particle.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Shader.h \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/SpringDamper.h \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Triangle.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Window.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/core.h \
   /opt/homebrew/include/GLFW/glfw3.h \
@@ -6139,23 +6150,15 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
 
 /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Window.cpp:
 
-/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Triangle.h:
-
 /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Triangle.cpp:
 
 /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Tokenizer.h:
 
 /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Tokenizer.cpp:
 
-/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/SpringDamper.h:
-
-/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Particle.h:
-
 /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Ground.cpp:
 
 /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Cube.cpp:
-
-/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Cloth.h:
 
 /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Box.h:
 
@@ -6391,9 +6394,17 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
 
 /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Window.h:
 
+/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Triangle.h:
+
+/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/SpringDamper.h:
+
+/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Particle.h:
+
 /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Ground.h:
 
 /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Cube.h:
+
+/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Cloth.h:
 
 /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Camera.h:
 

@@ -5,6 +5,7 @@
 #include "Shader.h"
 #include "core.h"
 #include "Ground.h"
+#include "Cloth.h"
 // #include "Box.h"
 
 class Window {
@@ -18,6 +19,7 @@ public:
     static Cube* cube;
     // static Box* box;
     static Ground* ground;
+    static Cloth* cloth;
 
     // Shader Program
     static GLuint shaderProgram;

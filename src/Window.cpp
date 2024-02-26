@@ -9,6 +9,7 @@ const char* Window::windowTitle = "Model Environment";
 Cube* Window::cube;
 // Box* Window::box;
 Ground* Window::ground;
+Cloth* Window::cloth;
 
 // Camera Properties
 Camera* Cam;
@@ -39,6 +40,7 @@ bool Window::initializeObjects() {
     // cube = new Cube();
     // box = new Box();
     ground = new Ground();
+    cloth = new Cloth();
     // cube = new Cube(glm::vec3(-1, 0, -2), glm::vec3(1, 1, 1));
 
     return true;
@@ -49,6 +51,7 @@ void Window::cleanUp() {
     // delete cube;
     // delete box;
     delete ground;
+    delete cloth;
 
     // Delete the shader program.
     glDeleteProgram(shaderProgram);
@@ -124,6 +127,7 @@ void Window::idleCallback() {
 
     // cube->update();
     // box->update();
+    cloth->update(1/60);
 }
 
 void Window::displayCallback(GLFWwindow* window) {
@@ -134,6 +138,7 @@ void Window::displayCallback(GLFWwindow* window) {
     // cube->draw(Cam->GetViewProjectMtx(), Window::shaderProgram);
     // box->draw(Cam->GetViewProjectMtx(), Window::shaderProgram);
     ground->draw(Cam->GetViewProjectMtx(), Window::shaderProgram);
+    cloth -> draw(Cam->GetViewProjectMtx(), Window::shaderProgram);
 
     // Gets events, including input such as keyboard and mouse or window resizing.
     glfwPollEvents();

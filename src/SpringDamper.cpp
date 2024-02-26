@@ -1,7 +1,8 @@
 #include "SpringDamper.h"
 
 SpringDamper::SpringDamper(){
-
+    SpringConstant = 3000.0f;
+    DampingConstant = 10.0f;
 }
 
 SpringDamper::~SpringDamper(){

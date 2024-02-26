@@ -9,6 +9,7 @@ class Particle{
     glm::vec3 Velocity;
     float Mass;
     bool Fixed;
+    int ind;
 
     Particle();
     ~Particle();

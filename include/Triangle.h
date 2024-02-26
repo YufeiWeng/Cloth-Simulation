@@ -11,7 +11,7 @@ class Triangle{
     public:
     Particle *p0, *p1, *p2;
     glm::vec3 normal;
-    float coeff;
+    float area;
 
     Triangle();
     ~Triangle();
