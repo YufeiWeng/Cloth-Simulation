@@ -352,6 +352,22 @@ CMakeFiles/menv.dir/src/Cloth.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/unique_copy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/unique.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/random \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/numeric \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__ranges/enable_view.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_wctrans_t.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/core.h \
   /opt/homebrew/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl3.h \
@@ -360,9 +376,6 @@ CMakeFiles/menv.dir/src/Cloth.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/os/availability.h \
   /opt/homebrew/include/glm/glm.hpp \
   /opt/homebrew/include/glm/detail/_fixes.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/math.h \
   /opt/homebrew/include/glm/detail/setup.hpp \
   /opt/homebrew/include/glm/detail/../simd/platform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cfloat \

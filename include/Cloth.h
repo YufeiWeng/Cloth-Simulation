@@ -1,6 +1,7 @@
 #pragma once
 
 #include <vector>
+#include <random>
 
 #include "core.h"
 #include "Particle.h"
@@ -33,6 +34,7 @@ class Cloth {
 
     Cloth();
     ~Cloth();
+    void applyAllForce(float deltaTime);
     void openGLbind();
     void draw(const glm::mat4& viewProjMtx, GLuint shader);
     void updateNormal();

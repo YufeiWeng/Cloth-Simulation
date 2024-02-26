@@ -280,7 +280,9 @@ CMakeFiles/menv.dir/main.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_pr
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/numeric \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/random \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ratio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stddef.h \
@@ -1576,6 +1578,7 @@ CMakeFiles/menv.dir/src/Cloth.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_m
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_uint64_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_uint8_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_uintmax_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_wctrans_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_wctype_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/alloca.h \
@@ -1764,7 +1767,9 @@ CMakeFiles/menv.dir/src/Cloth.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_m
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__ranges/access.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__ranges/enable_borrowed_range.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__ranges/enable_view.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__threading_support \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__tuple \
@@ -1787,6 +1792,7 @@ CMakeFiles/menv.dir/src/Cloth.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_m
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/atomic \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cctype \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cfloat \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/climits \
@@ -1795,10 +1801,13 @@ CMakeFiles/menv.dir/src/Cloth.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_m
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/concepts \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdlib \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstring \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ctime \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cwctype \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/exception \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/float.h \
@@ -1811,13 +1820,17 @@ CMakeFiles/menv.dir/src/Cloth.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_m
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/numeric \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/random \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ratio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdexcept \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/string_view \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/tuple \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/type_traits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/typeinfo \
@@ -1826,6 +1839,7 @@ CMakeFiles/menv.dir/src/Cloth.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_m
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/version \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/float.h \
@@ -1915,6 +1929,7 @@ CMakeFiles/menv.dir/src/Cloth.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_m
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/wait.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/wctype.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/__stddef_max_align_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/limits.h \
@@ -5750,7 +5765,9 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/numeric \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/random \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ratio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stddef.h \
@@ -6512,9 +6529,9 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
 
 /opt/homebrew/include/glm/detail/type_mat3x2.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_u_int64_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_set.h:
 
@@ -6647,6 +6664,10 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ratio:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/random:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/numeric:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:
 

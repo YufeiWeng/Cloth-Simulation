@@ -4,8 +4,8 @@ Cloth::Cloth() {
     color = glm::vec3(1.0f, 0.0f, 0.0f);
     model = glm::mat4(1.0f);
 
-    int num_particles_width = 10;
-    int num_particles_height = 10;
+    int num_particles_width = 15;
+    int num_particles_height = 15;
     float width = 5.0f; // Width of the cloth
     float height = 5.0f; // Height of the cloth
 
@@ -18,8 +18,14 @@ Cloth::Cloth() {
 
     for (int y = 0; y < num_particles_height; ++y) {
         for (int x = 0; x < num_particles_width; ++x) {
-            glm::vec3 position = glm::vec3(dx * x - 2.5, dy * y - 1.5, 0);
-            bool isFixed = (y == 0); // Only the top row is fixed
+
+            // generate z in range [-0.00001, 0.00001]
+            static std::mt19937 gen(std::random_device{}());
+            static std::uniform_real_distribution<float> distr(-0.00001f, 0.00001f);
+            float z = distr(gen);
+
+            glm::vec3 position = glm::vec3(dx * x - 2.5, dy * y - 1.5, z);
+            bool isFixed = (y == num_particles_height-1); // Only the top row is fixed
             Particle* p = new Particle();
             p->Position = position;
             p->Normal = glm::vec3(0, 0, 0);
@@ -27,7 +33,7 @@ Cloth::Cloth() {
             p->ind = y * num_particles_height + x; 
 
             //TODO: tune mass
-            p->Mass = 0.05f;
+            p->Mass = 0.75f;
 
 
             particles.push_back(p);
@@ -39,6 +45,7 @@ Cloth::Cloth() {
     }
 
     // Iterate through each row and column to setup spring dampers
+    //TODO: Do we need bending forces(i.e. add more SpringDampers....)
     for (int row = 0; row < num_particles_height; row++) {
         for (int col = 0; col < num_particles_width; col++) {
             // Vertical spring - connect current particle with the one directly below, if not on the bottom row
@@ -88,6 +95,9 @@ Cloth::Cloth() {
             t->p0 = particles[index1];
             t->p1 = particles[index2];
             t->p2 = particles[index3];
+            glm::vec3 n0 = t->p1->Position - t->p0->Position;
+            glm::vec3 n1 = t->p2->Position - t->p0->Position;
+            t->area = 0.5f * glm::length(glm::cross(n0,n1));
             triangles.push_back(t);
 
             int index4 = (i + 1) * num_particles_width + j + 1;
@@ -99,6 +109,9 @@ Cloth::Cloth() {
             t2->p0 = particles[index2];
             t2->p1 = particles[index4];
             t2->p2 = particles[index3];
+            glm::vec3 n2 = t2->p1->Position - t2->p0->Position;
+            glm::vec3 n3 = t2->p2->Position - t2->p0->Position;
+            t->area = 0.5f * glm::length(glm::cross(n2,n3));
             triangles.push_back(t2);
         }
     }
@@ -109,22 +122,23 @@ Cloth::Cloth() {
     // printf("openGLbind!");
 }
 
+
 void Cloth::update(float deltaTime){
     
-    // Gravity & Euler -> update
+    // applyGravity;
     for (Particle* p : particles){
-        // TODO:tune gravity
         glm::vec3 gravity = glm::vec3(0.0f, -9.8f, 0.0f);
         // add gravity
         p->ApplyForce(gravity);
-        p->Integrate(deltaTime);
-        positions[p->ind] = p->Position;
     }
 
     // SpringDamper
     for (SpringDamper* sd : springDampers){
-        // sd -> ComputeForce();
+        // TODO: tune constants
+        sd -> ComputeForce();
     }
+
+    applyAllForce(deltaTime);
 
     updateNormal();
 
@@ -168,6 +182,12 @@ void Cloth::updateNormal(){
     }
 }
 
+void Cloth::applyAllForce(float deltaTime){
+    for (Particle* p : particles){
+        p->Integrate(deltaTime);
+        positions[p->ind] = p->Position;
+    }
+}
 void Cloth::openGLbind() {
     // Generate a vertex array (VAO) and two vertex buffer objects (VBO).
     glGenVertexArrays(1, &VAO);
