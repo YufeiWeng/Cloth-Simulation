@@ -27,7 +27,7 @@ Cloth::Cloth() {
             p->ind = y * num_particles_height + x; 
 
             //TODO: tune mass
-            p->Mass = 0.1f;
+            p->Mass = 0.05f;
 
 
             particles.push_back(p);
@@ -37,6 +37,41 @@ Cloth::Cloth() {
             // particles[y * num_particles_width + x] = new Particle(position, glm::vec3(0, 0, 0), 1.0f, isFixed);
         }
     }
+
+    // Iterate through each row and column to setup spring dampers
+    for (int row = 0; row < num_particles_height; row++) {
+        for (int col = 0; col < num_particles_width; col++) {
+            // Vertical spring - connect current particle with the one directly below, if not on the bottom row
+            if (row < num_particles_height - 1) {
+                auto* verticalSpring = new SpringDamper();
+                verticalSpring->P1 = particles[row * num_particles_width + col];
+                verticalSpring->P2 = particles[(row + 1) * num_particles_width + col];
+                verticalSpring->RestLength = glm::distance(verticalSpring->P1->Position, verticalSpring->P2->Position);
+                springDampers.push_back(verticalSpring);
+            }
+            
+            // Horizontal spring - connect current particle with the one to the right, if not on the rightmost column
+            if (col < num_particles_width - 1) {
+                auto* horizontalSpring = new SpringDamper();
+                horizontalSpring->P1 = particles[row * num_particles_width + col];
+                horizontalSpring->P2 = particles[row * num_particles_width + (col + 1)];
+                horizontalSpring->RestLength = glm::distance(horizontalSpring->P1->Position, horizontalSpring->P2->Position);
+                springDampers.push_back(horizontalSpring);
+            }
+            
+            // Diagonal spring - for shear resistance, connect diagonally to the bottom-right, if not on bottom row or rightmost column
+            if (row < num_particles_height - 1 && col < num_particles_width - 1) {
+                auto* diagonalSpring = new SpringDamper();
+                diagonalSpring->P1 = particles[row * num_particles_width + col];
+                diagonalSpring->P2 = particles[(row + 1) * num_particles_width + (col + 1)];
+                diagonalSpring->RestLength = glm::distance(diagonalSpring->P1->Position, diagonalSpring->P2->Position);
+                springDampers.push_back(diagonalSpring);
+            }
+        }
+    }
+
+
+
 
     // indices
     for (int i = 0; i < num_particles_height - 1; i++) {
@@ -77,7 +112,7 @@ Cloth::Cloth() {
 void Cloth::update(float deltaTime){
     
     // Gravity & Euler -> update
-    for(Particle* p : particles){
+    for (Particle* p : particles){
         // TODO:tune gravity
         glm::vec3 gravity = glm::vec3(0.0f, -9.8f, 0.0f);
         // add gravity
@@ -85,7 +120,14 @@ void Cloth::update(float deltaTime){
         p->Integrate(deltaTime);
         positions[p->ind] = p->Position;
     }
+
+    // SpringDamper
+    for (SpringDamper* sd : springDampers){
+        // sd -> ComputeForce();
+    }
+
     updateNormal();
+
     openGLbind();
     // printf("openGLbind!");
 }
