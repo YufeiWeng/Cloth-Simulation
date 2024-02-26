@@ -20,6 +20,7 @@ public:
     // static Box* box;
     static Ground* ground;
     static Cloth* cloth;
+    static glm::vec3 wind;
 
     // Shader Program
     static GLuint shaderProgram;

@@ -27,12 +27,13 @@ class Cloth {
 
     glm::mat4 model;
     glm::vec3 color;
+    glm::vec3 wind;
 
     std::vector<glm::vec3> positions;
     std::vector<glm::vec3> normals;
     std::vector<unsigned int> indices;
 
-    Cloth();
+    Cloth(glm::vec3 wind);
     ~Cloth();
     void applyAllForce(float deltaTime);
     void openGLbind();

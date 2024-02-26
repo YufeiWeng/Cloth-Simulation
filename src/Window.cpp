@@ -10,6 +10,7 @@ Cube* Window::cube;
 // Box* Window::box;
 Ground* Window::ground;
 Cloth* Window::cloth;
+glm::vec3 Window::wind;
 
 // Camera Properties
 Camera* Cam;
@@ -40,7 +41,8 @@ bool Window::initializeObjects() {
     // cube = new Cube();
     // box = new Box();
     ground = new Ground();
-    cloth = new Cloth();
+    wind = glm::vec3(1.0f, 0.0f, 0.0f);
+    cloth = new Cloth(wind);
     // cube = new Cube(glm::vec3(-1, 0, -2), glm::vec3(1, 1, 1));
 
     return true;

@@ -1,11 +1,12 @@
 #include "Cloth.h"
 
-Cloth::Cloth() {
+Cloth::Cloth(glm::vec3 wind) {
     color = glm::vec3(1.0f, 0.0f, 0.0f);
     model = glm::mat4(1.0f);
+    this->wind = wind;
 
-    int num_particles_width = 15;
-    int num_particles_height = 15;
+    int num_particles_width = 11;
+    int num_particles_height = 11;
     float width = 5.0f; // Width of the cloth
     float height = 5.0f; // Height of the cloth
 
@@ -136,6 +137,13 @@ void Cloth::update(float deltaTime){
     for (SpringDamper* sd : springDampers){
         // TODO: tune constants
         sd -> ComputeForce();
+    }
+
+    // Aerodynamic Force
+    for (Triangle* tri : triangles){
+        //The fluid density 𝜌 of air at 15o C and a pressure of 101.325 kPa
+        //(14.696 psi) is 1.225 kg/m3 and is used as a common default value
+        // tri -> computeAeroForce(wind, 1.225f);
     }
 
     applyAllForce(deltaTime);

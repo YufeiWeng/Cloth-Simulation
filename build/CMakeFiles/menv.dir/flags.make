@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -isystem /opt/homebrew/include
+CXX_INCLUDES = -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/imgui -isystem /opt/homebrew/include
 
 CXX_FLAGSarm64 = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations
 

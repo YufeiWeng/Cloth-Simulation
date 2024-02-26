@@ -69,10 +69,108 @@ include CMakeFiles/menv.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/menv.dir/flags.make
 
+CMakeFiles/menv.dir/imgui/imgui.cpp.o: CMakeFiles/menv.dir/flags.make
+CMakeFiles/menv.dir/imgui/imgui.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui.cpp
+CMakeFiles/menv.dir/imgui/imgui.cpp.o: CMakeFiles/menv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/menv.dir/imgui/imgui.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menv.dir/imgui/imgui.cpp.o -MF CMakeFiles/menv.dir/imgui/imgui.cpp.o.d -o CMakeFiles/menv.dir/imgui/imgui.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui.cpp
+
+CMakeFiles/menv.dir/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/menv.dir/imgui/imgui.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui.cpp > CMakeFiles/menv.dir/imgui/imgui.cpp.i
+
+CMakeFiles/menv.dir/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/menv.dir/imgui/imgui.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui.cpp -o CMakeFiles/menv.dir/imgui/imgui.cpp.s
+
+CMakeFiles/menv.dir/imgui/imgui_demo.cpp.o: CMakeFiles/menv.dir/flags.make
+CMakeFiles/menv.dir/imgui/imgui_demo.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_demo.cpp
+CMakeFiles/menv.dir/imgui/imgui_demo.cpp.o: CMakeFiles/menv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/menv.dir/imgui/imgui_demo.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menv.dir/imgui/imgui_demo.cpp.o -MF CMakeFiles/menv.dir/imgui/imgui_demo.cpp.o.d -o CMakeFiles/menv.dir/imgui/imgui_demo.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_demo.cpp
+
+CMakeFiles/menv.dir/imgui/imgui_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/menv.dir/imgui/imgui_demo.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_demo.cpp > CMakeFiles/menv.dir/imgui/imgui_demo.cpp.i
+
+CMakeFiles/menv.dir/imgui/imgui_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/menv.dir/imgui/imgui_demo.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_demo.cpp -o CMakeFiles/menv.dir/imgui/imgui_demo.cpp.s
+
+CMakeFiles/menv.dir/imgui/imgui_draw.cpp.o: CMakeFiles/menv.dir/flags.make
+CMakeFiles/menv.dir/imgui/imgui_draw.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_draw.cpp
+CMakeFiles/menv.dir/imgui/imgui_draw.cpp.o: CMakeFiles/menv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/menv.dir/imgui/imgui_draw.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menv.dir/imgui/imgui_draw.cpp.o -MF CMakeFiles/menv.dir/imgui/imgui_draw.cpp.o.d -o CMakeFiles/menv.dir/imgui/imgui_draw.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_draw.cpp
+
+CMakeFiles/menv.dir/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/menv.dir/imgui/imgui_draw.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_draw.cpp > CMakeFiles/menv.dir/imgui/imgui_draw.cpp.i
+
+CMakeFiles/menv.dir/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/menv.dir/imgui/imgui_draw.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_draw.cpp -o CMakeFiles/menv.dir/imgui/imgui_draw.cpp.s
+
+CMakeFiles/menv.dir/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/menv.dir/flags.make
+CMakeFiles/menv.dir/imgui/imgui_impl_glfw.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_impl_glfw.cpp
+CMakeFiles/menv.dir/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/menv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/menv.dir/imgui/imgui_impl_glfw.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menv.dir/imgui/imgui_impl_glfw.cpp.o -MF CMakeFiles/menv.dir/imgui/imgui_impl_glfw.cpp.o.d -o CMakeFiles/menv.dir/imgui/imgui_impl_glfw.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_impl_glfw.cpp
+
+CMakeFiles/menv.dir/imgui/imgui_impl_glfw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/menv.dir/imgui/imgui_impl_glfw.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_impl_glfw.cpp > CMakeFiles/menv.dir/imgui/imgui_impl_glfw.cpp.i
+
+CMakeFiles/menv.dir/imgui/imgui_impl_glfw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/menv.dir/imgui/imgui_impl_glfw.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_impl_glfw.cpp -o CMakeFiles/menv.dir/imgui/imgui_impl_glfw.cpp.s
+
+CMakeFiles/menv.dir/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/menv.dir/flags.make
+CMakeFiles/menv.dir/imgui/imgui_impl_opengl3.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_impl_opengl3.cpp
+CMakeFiles/menv.dir/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/menv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/menv.dir/imgui/imgui_impl_opengl3.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menv.dir/imgui/imgui_impl_opengl3.cpp.o -MF CMakeFiles/menv.dir/imgui/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/menv.dir/imgui/imgui_impl_opengl3.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_impl_opengl3.cpp
+
+CMakeFiles/menv.dir/imgui/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/menv.dir/imgui/imgui_impl_opengl3.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_impl_opengl3.cpp > CMakeFiles/menv.dir/imgui/imgui_impl_opengl3.cpp.i
+
+CMakeFiles/menv.dir/imgui/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/menv.dir/imgui/imgui_impl_opengl3.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_impl_opengl3.cpp -o CMakeFiles/menv.dir/imgui/imgui_impl_opengl3.cpp.s
+
+CMakeFiles/menv.dir/imgui/imgui_tables.cpp.o: CMakeFiles/menv.dir/flags.make
+CMakeFiles/menv.dir/imgui/imgui_tables.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_tables.cpp
+CMakeFiles/menv.dir/imgui/imgui_tables.cpp.o: CMakeFiles/menv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/menv.dir/imgui/imgui_tables.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menv.dir/imgui/imgui_tables.cpp.o -MF CMakeFiles/menv.dir/imgui/imgui_tables.cpp.o.d -o CMakeFiles/menv.dir/imgui/imgui_tables.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_tables.cpp
+
+CMakeFiles/menv.dir/imgui/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/menv.dir/imgui/imgui_tables.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_tables.cpp > CMakeFiles/menv.dir/imgui/imgui_tables.cpp.i
+
+CMakeFiles/menv.dir/imgui/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/menv.dir/imgui/imgui_tables.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_tables.cpp -o CMakeFiles/menv.dir/imgui/imgui_tables.cpp.s
+
+CMakeFiles/menv.dir/imgui/imgui_widgets.cpp.o: CMakeFiles/menv.dir/flags.make
+CMakeFiles/menv.dir/imgui/imgui_widgets.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_widgets.cpp
+CMakeFiles/menv.dir/imgui/imgui_widgets.cpp.o: CMakeFiles/menv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/menv.dir/imgui/imgui_widgets.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menv.dir/imgui/imgui_widgets.cpp.o -MF CMakeFiles/menv.dir/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/menv.dir/imgui/imgui_widgets.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_widgets.cpp
+
+CMakeFiles/menv.dir/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/menv.dir/imgui/imgui_widgets.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_widgets.cpp > CMakeFiles/menv.dir/imgui/imgui_widgets.cpp.i
+
+CMakeFiles/menv.dir/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/menv.dir/imgui/imgui_widgets.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_widgets.cpp -o CMakeFiles/menv.dir/imgui/imgui_widgets.cpp.s
+
 CMakeFiles/menv.dir/main.cpp.o: CMakeFiles/menv.dir/flags.make
 CMakeFiles/menv.dir/main.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_project4/main.cpp
 CMakeFiles/menv.dir/main.cpp.o: CMakeFiles/menv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/menv.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/menv.dir/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menv.dir/main.cpp.o -MF CMakeFiles/menv.dir/main.cpp.o.d -o CMakeFiles/menv.dir/main.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/main.cpp
 
 CMakeFiles/menv.dir/main.cpp.i: cmake_force
@@ -86,7 +184,7 @@ CMakeFiles/menv.dir/main.cpp.s: cmake_force
 CMakeFiles/menv.dir/src/Box.cpp.o: CMakeFiles/menv.dir/flags.make
 CMakeFiles/menv.dir/src/Box.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Box.cpp
 CMakeFiles/menv.dir/src/Box.cpp.o: CMakeFiles/menv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/menv.dir/src/Box.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/menv.dir/src/Box.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menv.dir/src/Box.cpp.o -MF CMakeFiles/menv.dir/src/Box.cpp.o.d -o CMakeFiles/menv.dir/src/Box.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Box.cpp
 
 CMakeFiles/menv.dir/src/Box.cpp.i: cmake_force
@@ -100,7 +198,7 @@ CMakeFiles/menv.dir/src/Box.cpp.s: cmake_force
 CMakeFiles/menv.dir/src/Camera.cpp.o: CMakeFiles/menv.dir/flags.make
 CMakeFiles/menv.dir/src/Camera.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Camera.cpp
 CMakeFiles/menv.dir/src/Camera.cpp.o: CMakeFiles/menv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/menv.dir/src/Camera.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/menv.dir/src/Camera.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menv.dir/src/Camera.cpp.o -MF CMakeFiles/menv.dir/src/Camera.cpp.o.d -o CMakeFiles/menv.dir/src/Camera.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Camera.cpp
 
 CMakeFiles/menv.dir/src/Camera.cpp.i: cmake_force
@@ -114,7 +212,7 @@ CMakeFiles/menv.dir/src/Camera.cpp.s: cmake_force
 CMakeFiles/menv.dir/src/Cloth.cpp.o: CMakeFiles/menv.dir/flags.make
 CMakeFiles/menv.dir/src/Cloth.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Cloth.cpp
 CMakeFiles/menv.dir/src/Cloth.cpp.o: CMakeFiles/menv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/menv.dir/src/Cloth.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/menv.dir/src/Cloth.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menv.dir/src/Cloth.cpp.o -MF CMakeFiles/menv.dir/src/Cloth.cpp.o.d -o CMakeFiles/menv.dir/src/Cloth.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Cloth.cpp
 
 CMakeFiles/menv.dir/src/Cloth.cpp.i: cmake_force
@@ -128,7 +226,7 @@ CMakeFiles/menv.dir/src/Cloth.cpp.s: cmake_force
 CMakeFiles/menv.dir/src/Cube.cpp.o: CMakeFiles/menv.dir/flags.make
 CMakeFiles/menv.dir/src/Cube.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Cube.cpp
 CMakeFiles/menv.dir/src/Cube.cpp.o: CMakeFiles/menv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/menv.dir/src/Cube.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/menv.dir/src/Cube.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menv.dir/src/Cube.cpp.o -MF CMakeFiles/menv.dir/src/Cube.cpp.o.d -o CMakeFiles/menv.dir/src/Cube.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Cube.cpp
 
 CMakeFiles/menv.dir/src/Cube.cpp.i: cmake_force
@@ -142,7 +240,7 @@ CMakeFiles/menv.dir/src/Cube.cpp.s: cmake_force
 CMakeFiles/menv.dir/src/Ground.cpp.o: CMakeFiles/menv.dir/flags.make
 CMakeFiles/menv.dir/src/Ground.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Ground.cpp
 CMakeFiles/menv.dir/src/Ground.cpp.o: CMakeFiles/menv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/menv.dir/src/Ground.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/menv.dir/src/Ground.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menv.dir/src/Ground.cpp.o -MF CMakeFiles/menv.dir/src/Ground.cpp.o.d -o CMakeFiles/menv.dir/src/Ground.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Ground.cpp
 
 CMakeFiles/menv.dir/src/Ground.cpp.i: cmake_force
@@ -156,7 +254,7 @@ CMakeFiles/menv.dir/src/Ground.cpp.s: cmake_force
 CMakeFiles/menv.dir/src/Particle.cpp.o: CMakeFiles/menv.dir/flags.make
 CMakeFiles/menv.dir/src/Particle.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Particle.cpp
 CMakeFiles/menv.dir/src/Particle.cpp.o: CMakeFiles/menv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/menv.dir/src/Particle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/menv.dir/src/Particle.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menv.dir/src/Particle.cpp.o -MF CMakeFiles/menv.dir/src/Particle.cpp.o.d -o CMakeFiles/menv.dir/src/Particle.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Particle.cpp
 
 CMakeFiles/menv.dir/src/Particle.cpp.i: cmake_force
@@ -170,7 +268,7 @@ CMakeFiles/menv.dir/src/Particle.cpp.s: cmake_force
 CMakeFiles/menv.dir/src/Shader.cpp.o: CMakeFiles/menv.dir/flags.make
 CMakeFiles/menv.dir/src/Shader.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Shader.cpp
 CMakeFiles/menv.dir/src/Shader.cpp.o: CMakeFiles/menv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/menv.dir/src/Shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/menv.dir/src/Shader.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menv.dir/src/Shader.cpp.o -MF CMakeFiles/menv.dir/src/Shader.cpp.o.d -o CMakeFiles/menv.dir/src/Shader.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Shader.cpp
 
 CMakeFiles/menv.dir/src/Shader.cpp.i: cmake_force
@@ -184,7 +282,7 @@ CMakeFiles/menv.dir/src/Shader.cpp.s: cmake_force
 CMakeFiles/menv.dir/src/SpringDamper.cpp.o: CMakeFiles/menv.dir/flags.make
 CMakeFiles/menv.dir/src/SpringDamper.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/SpringDamper.cpp
 CMakeFiles/menv.dir/src/SpringDamper.cpp.o: CMakeFiles/menv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/menv.dir/src/SpringDamper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/menv.dir/src/SpringDamper.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menv.dir/src/SpringDamper.cpp.o -MF CMakeFiles/menv.dir/src/SpringDamper.cpp.o.d -o CMakeFiles/menv.dir/src/SpringDamper.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/SpringDamper.cpp
 
 CMakeFiles/menv.dir/src/SpringDamper.cpp.i: cmake_force
@@ -198,7 +296,7 @@ CMakeFiles/menv.dir/src/SpringDamper.cpp.s: cmake_force
 CMakeFiles/menv.dir/src/Tokenizer.cpp.o: CMakeFiles/menv.dir/flags.make
 CMakeFiles/menv.dir/src/Tokenizer.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Tokenizer.cpp
 CMakeFiles/menv.dir/src/Tokenizer.cpp.o: CMakeFiles/menv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/menv.dir/src/Tokenizer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/menv.dir/src/Tokenizer.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menv.dir/src/Tokenizer.cpp.o -MF CMakeFiles/menv.dir/src/Tokenizer.cpp.o.d -o CMakeFiles/menv.dir/src/Tokenizer.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Tokenizer.cpp
 
 CMakeFiles/menv.dir/src/Tokenizer.cpp.i: cmake_force
@@ -212,7 +310,7 @@ CMakeFiles/menv.dir/src/Tokenizer.cpp.s: cmake_force
 CMakeFiles/menv.dir/src/Triangle.cpp.o: CMakeFiles/menv.dir/flags.make
 CMakeFiles/menv.dir/src/Triangle.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Triangle.cpp
 CMakeFiles/menv.dir/src/Triangle.cpp.o: CMakeFiles/menv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/menv.dir/src/Triangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/menv.dir/src/Triangle.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menv.dir/src/Triangle.cpp.o -MF CMakeFiles/menv.dir/src/Triangle.cpp.o.d -o CMakeFiles/menv.dir/src/Triangle.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Triangle.cpp
 
 CMakeFiles/menv.dir/src/Triangle.cpp.i: cmake_force
@@ -226,7 +324,7 @@ CMakeFiles/menv.dir/src/Triangle.cpp.s: cmake_force
 CMakeFiles/menv.dir/src/Window.cpp.o: CMakeFiles/menv.dir/flags.make
 CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Window.cpp
 CMakeFiles/menv.dir/src/Window.cpp.o: CMakeFiles/menv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/menv.dir/src/Window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/menv.dir/src/Window.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menv.dir/src/Window.cpp.o -MF CMakeFiles/menv.dir/src/Window.cpp.o.d -o CMakeFiles/menv.dir/src/Window.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Window.cpp
 
 CMakeFiles/menv.dir/src/Window.cpp.i: cmake_force
@@ -239,6 +337,13 @@ CMakeFiles/menv.dir/src/Window.cpp.s: cmake_force
 
 # Object files for target menv
 menv_OBJECTS = \
+"CMakeFiles/menv.dir/imgui/imgui.cpp.o" \
+"CMakeFiles/menv.dir/imgui/imgui_demo.cpp.o" \
+"CMakeFiles/menv.dir/imgui/imgui_draw.cpp.o" \
+"CMakeFiles/menv.dir/imgui/imgui_impl_glfw.cpp.o" \
+"CMakeFiles/menv.dir/imgui/imgui_impl_opengl3.cpp.o" \
+"CMakeFiles/menv.dir/imgui/imgui_tables.cpp.o" \
+"CMakeFiles/menv.dir/imgui/imgui_widgets.cpp.o" \
 "CMakeFiles/menv.dir/main.cpp.o" \
 "CMakeFiles/menv.dir/src/Box.cpp.o" \
 "CMakeFiles/menv.dir/src/Camera.cpp.o" \
@@ -255,6 +360,13 @@ menv_OBJECTS = \
 # External object files for target menv
 menv_EXTERNAL_OBJECTS =
 
+menv: CMakeFiles/menv.dir/imgui/imgui.cpp.o
+menv: CMakeFiles/menv.dir/imgui/imgui_demo.cpp.o
+menv: CMakeFiles/menv.dir/imgui/imgui_draw.cpp.o
+menv: CMakeFiles/menv.dir/imgui/imgui_impl_glfw.cpp.o
+menv: CMakeFiles/menv.dir/imgui/imgui_impl_opengl3.cpp.o
+menv: CMakeFiles/menv.dir/imgui/imgui_tables.cpp.o
+menv: CMakeFiles/menv.dir/imgui/imgui_widgets.cpp.o
 menv: CMakeFiles/menv.dir/main.cpp.o
 menv: CMakeFiles/menv.dir/src/Box.cpp.o
 menv: CMakeFiles/menv.dir/src/Camera.cpp.o
@@ -270,7 +382,7 @@ menv: CMakeFiles/menv.dir/src/Window.cpp.o
 menv: CMakeFiles/menv.dir/build.make
 menv: /opt/homebrew/lib/libglfw.3.3.dylib
 menv: CMakeFiles/menv.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable menv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable menv"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/menv.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

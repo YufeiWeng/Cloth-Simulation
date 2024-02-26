@@ -609,4 +609,9 @@ CMakeFiles/menv.dir/src/Shader.cpp.o: \
   /opt/homebrew/include/glm/gtx/../gtc/../geometric.hpp \
   /opt/homebrew/include/glm/gtx/../gtc/../trigonometric.hpp \
   /opt/homebrew/include/glm/gtx/../gtc/../matrix.hpp \
-  /opt/homebrew/include/glm/gtx/transform.inl
+  /opt/homebrew/include/glm/gtx/transform.inl \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/../imgui/imgui.h \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/../imgui/imconfig.h \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/../imgui/imgui_impl_glfw.h \
+  /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/../imgui/imgui_impl_opengl3.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/TargetConditionals.h

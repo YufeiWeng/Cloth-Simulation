@@ -15,13 +15,13 @@ add_compile_options(-Wno-deprecated-declarations)
 file(GLOB_RECURSE SOURCES "src/*.cpp" main.cpp)
 # This will not recursively find .cpp in subfolders, so
 # after you have imgui or other UI component, use
-# file(GLOB_RECURSE SOURCES "src/*.cpp" "imgui/*.cpp" "imgui/backend/*.cpp" main.cpp)
+file(GLOB_RECURSE SOURCES "src/*.cpp" "imgui/*.cpp" "imgui/backend/*.cpp" main.cpp)
 
 # Add include directories
 include_directories(
     include
     # also, add this after you have imgui
-    # include/imgui
+    include/imgui
 )
 
 # Find Homebrew prefix

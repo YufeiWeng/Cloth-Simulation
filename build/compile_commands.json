@@ -1,73 +1,115 @@
 [
 {
   "directory": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build",
-  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/main.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/main.cpp",
+  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/imgui -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/imgui/imgui.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui.cpp",
+  "file": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui.cpp",
+  "output": "CMakeFiles/menv.dir/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build",
+  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/imgui -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/imgui/imgui_demo.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_demo.cpp",
+  "file": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_demo.cpp",
+  "output": "CMakeFiles/menv.dir/imgui/imgui_demo.cpp.o"
+},
+{
+  "directory": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build",
+  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/imgui -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/imgui/imgui_draw.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_draw.cpp",
+  "file": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/menv.dir/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build",
+  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/imgui -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/imgui/imgui_impl_glfw.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_impl_glfw.cpp",
+  "file": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/menv.dir/imgui/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build",
+  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/imgui -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/imgui/imgui_impl_opengl3.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_impl_opengl3.cpp",
+  "file": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/menv.dir/imgui/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build",
+  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/imgui -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/imgui/imgui_tables.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_tables.cpp",
+  "file": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/menv.dir/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build",
+  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/imgui -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/imgui/imgui_widgets.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_widgets.cpp",
+  "file": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/menv.dir/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build",
+  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/imgui -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/main.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/main.cpp",
   "file": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/main.cpp",
   "output": "CMakeFiles/menv.dir/main.cpp.o"
 },
 {
   "directory": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build",
-  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/Box.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Box.cpp",
+  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/imgui -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/Box.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Box.cpp",
   "file": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Box.cpp",
   "output": "CMakeFiles/menv.dir/src/Box.cpp.o"
 },
 {
   "directory": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build",
-  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/Camera.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Camera.cpp",
+  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/imgui -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/Camera.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Camera.cpp",
   "file": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Camera.cpp",
   "output": "CMakeFiles/menv.dir/src/Camera.cpp.o"
 },
 {
   "directory": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build",
-  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/Cloth.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Cloth.cpp",
+  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/imgui -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/Cloth.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Cloth.cpp",
   "file": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Cloth.cpp",
   "output": "CMakeFiles/menv.dir/src/Cloth.cpp.o"
 },
 {
   "directory": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build",
-  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/Cube.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Cube.cpp",
+  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/imgui -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/Cube.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Cube.cpp",
   "file": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Cube.cpp",
   "output": "CMakeFiles/menv.dir/src/Cube.cpp.o"
 },
 {
   "directory": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build",
-  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/Ground.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Ground.cpp",
+  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/imgui -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/Ground.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Ground.cpp",
   "file": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Ground.cpp",
   "output": "CMakeFiles/menv.dir/src/Ground.cpp.o"
 },
 {
   "directory": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build",
-  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/Particle.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Particle.cpp",
+  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/imgui -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/Particle.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Particle.cpp",
   "file": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Particle.cpp",
   "output": "CMakeFiles/menv.dir/src/Particle.cpp.o"
 },
 {
   "directory": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build",
-  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/Shader.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Shader.cpp",
+  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/imgui -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/Shader.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Shader.cpp",
   "file": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Shader.cpp",
   "output": "CMakeFiles/menv.dir/src/Shader.cpp.o"
 },
 {
   "directory": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build",
-  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/SpringDamper.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/SpringDamper.cpp",
+  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/imgui -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/SpringDamper.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/SpringDamper.cpp",
   "file": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/SpringDamper.cpp",
   "output": "CMakeFiles/menv.dir/src/SpringDamper.cpp.o"
 },
 {
   "directory": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build",
-  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/Tokenizer.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Tokenizer.cpp",
+  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/imgui -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/Tokenizer.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Tokenizer.cpp",
   "file": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Tokenizer.cpp",
   "output": "CMakeFiles/menv.dir/src/Tokenizer.cpp.o"
 },
 {
   "directory": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build",
-  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/Triangle.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Triangle.cpp",
+  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/imgui -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/Triangle.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Triangle.cpp",
   "file": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Triangle.cpp",
   "output": "CMakeFiles/menv.dir/src/Triangle.cpp.o"
 },
 {
   "directory": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/build",
-  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/Window.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Window.cpp",
+  "command": "/usr/bin/clang++  -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include -I/Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/imgui -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -Wno-deprecated-declarations -o CMakeFiles/menv.dir/src/Window.cpp.o -c /Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Window.cpp",
   "file": "/Users/yufeiweng/Downloads/cse169_starter_mac_project4/src/Window.cpp",
   "output": "CMakeFiles/menv.dir/src/Window.cpp.o"
 }
