@@ -177,6 +177,7 @@ void Window::showWindow(GLFWwindow* window){
     ImGui::SliderFloat("Wind x", &cloth->wind.x, -10.0f, 10.0f);
     ImGui::SliderFloat("Wind y", &cloth->wind.y, -10.0f, 10.0f);
     ImGui::SliderFloat("Wind z", &cloth->wind.z, -10.0f, 10.0f);
+    // if (ImGui::IsItemActive()) ImGui::CaptureKeyboardFromApp(true);
     ImGui::End();
 }
 
@@ -193,6 +194,13 @@ void Window::keyCallback(GLFWwindow* window, int key, int scancode, int action, 
      */
 
     // Check for a key press.
+
+    ImGuiIO& io = ImGui::GetIO();
+    if (io.WantCaptureKeyboard) {
+        return;
+    }
+
+
     if (action == GLFW_PRESS) {
         switch (key) {
             case GLFW_KEY_ESCAPE:
@@ -203,6 +211,18 @@ void Window::keyCallback(GLFWwindow* window, int key, int scancode, int action, 
             case GLFW_KEY_R:
                 resetCamera();
                 break;
+
+            case GLFW_KEY_UP:
+                cloth->move(glm::vec3(0.0f, 0.1f , 0.0f));
+
+            case GLFW_KEY_DOWN:
+                cloth->move(glm::vec3(0.0f, -0.1f , 0.0f));
+
+            // case GLFW_KEY_LEFT:
+            //     cloth->move(glm::vec3(-0.1f, 0.0f , 0.0f));
+
+            // case GLFW_KEY_RIGHT:
+            //     cloth->move(glm::vec3(0.1f, 0.0f , 0.0f));
 
             default:
                 break;

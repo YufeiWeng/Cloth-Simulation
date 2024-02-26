@@ -253,3 +253,14 @@ void Cloth::draw(const glm::mat4& viewProjMtx, GLuint shader){
     glUseProgram(0);
 
 }
+
+void Cloth::move(glm::vec3 direction){
+    for(Particle* p : particles){
+        if(p->Fixed){
+            auto temp = p->Position + direction;
+            // if (temp.y > 0){
+                p->Position = temp;
+            // }
+        }
+    }
+}

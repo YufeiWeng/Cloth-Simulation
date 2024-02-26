@@ -40,4 +40,5 @@ class Cloth {
     void draw(const glm::mat4& viewProjMtx, GLuint shader);
     void updateNormal();
     void update(float deltaTime);
+    void move(glm::vec3 direction);
 };
