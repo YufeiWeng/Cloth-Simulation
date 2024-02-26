@@ -282,10 +282,96 @@ CMakeFiles/menv.dir/src/Window.cpp.o: \
   /opt/homebrew/include/glm/gtx/../gtc/../trigonometric.hpp \
   /opt/homebrew/include/glm/gtx/../gtc/../matrix.hpp \
   /opt/homebrew/include/glm/gtx/transform.inl \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__locale \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__availability \
+  /opt/homebrew/include/glm/gtx/string_cast.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/type_precision.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../gtc/constants.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../gtc/matrix_transform.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/./ext/../detail/qualifier.hpp \
+  /opt/homebrew/include/glm/./ext/vector_relational.inl \
+  /opt/homebrew/include/glm/./ext/../vector_relational.hpp \
+  /opt/homebrew/include/glm/./ext/../common.hpp \
+  /opt/homebrew/include/glm/./ext/../detail/type_float.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/quaternion_common.hpp \
+  /opt/homebrew/include/glm/./ext/../ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/./ext/../exponential.hpp \
+  /opt/homebrew/include/glm/./ext/../ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/./ext/quaternion_geometric.inl \
+  /opt/homebrew/include/glm/./ext/quaternion_common.inl \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/quaternion_float.hpp \
+  /opt/homebrew/include/glm/./ext/../detail/type_quat.hpp \
+  /opt/homebrew/include/glm/detail/../detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/../detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/../detail/type_vec3.hpp \
+  /opt/homebrew/include/glm/detail/../detail/type_vec4.hpp \
+  /opt/homebrew/include/glm/detail/../ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/detail/../ext/quaternion_relational.hpp \
+  /opt/homebrew/include/glm/./ext/quaternion_relational.inl \
+  /opt/homebrew/include/glm/detail/../gtc/constants.hpp \
+  /opt/homebrew/include/glm/detail/../gtc/matrix_transform.hpp \
+  /opt/homebrew/include/glm/detail/type_quat.inl \
+  /opt/homebrew/include/glm/detail/../trigonometric.hpp \
+  /opt/homebrew/include/glm/detail/../ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/quaternion_float_precision.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/quaternion_double.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/quaternion_double_precision.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/quaternion_relational.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/quaternion_trigonometric.hpp \
+  /opt/homebrew/include/glm/./ext/scalar_constants.hpp \
+  /opt/homebrew/include/glm/./ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/./ext/quaternion_trigonometric.inl \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/quaternion_transform.hpp \
+  /opt/homebrew/include/glm/./ext/quaternion_transform.inl \
+  /opt/homebrew/include/glm/gtx/../gtc/../detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../detail/type_vec3.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../detail/type_vec4.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/quaternion.inl \
+  /opt/homebrew/include/glm/gtx/../gtc/../exponential.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/epsilon.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../detail/setup.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../detail/qualifier.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/epsilon.inl \
+  /opt/homebrew/include/glm/gtx/../gtc/../vector_relational.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../common.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../gtc/vec1.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/vector_bool1.hpp \
+  /opt/homebrew/include/glm/./ext/../detail/type_vec1.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/vector_bool1_precision.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/vector_float1.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/vector_float1_precision.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/vector_double1.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/vector_double1_precision.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/vector_int1.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/vector_int1_sized.hpp \
+  /opt/homebrew/include/glm/./ext/../ext/vector_int1.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/vector_uint1.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/vector_uint1_sized.hpp \
+  /opt/homebrew/include/glm/./ext/../ext/vector_uint1.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/vector_int2_sized.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/vector_int3_sized.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/vector_int4_sized.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/scalar_int_sized.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/vector_uint2_sized.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/vector_uint3_sized.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/vector_uint4_sized.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../detail/type_vec2.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../detail/type_mat2x2.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../detail/type_mat2x3.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../detail/type_mat2x4.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../detail/type_mat3x2.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../detail/type_mat3x4.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../detail/type_mat4x2.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/../detail/type_mat4x3.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/type_precision.inl \
+  /opt/homebrew/include/glm/gtx/../gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtx/../gtx/dual_quaternion.hpp \
+  /opt/homebrew/include/glm/gtx/../gtc/constants.hpp \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.inl \
+  /opt/homebrew/include/glm/gtx/../geometric.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__debug \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iosfwd \
@@ -325,6 +411,7 @@ CMakeFiles/menv.dir/src/Window.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/allocator_arg_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/uses_allocator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__availability \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdlib \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/new \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/typeinfo \
@@ -552,6 +639,11 @@ CMakeFiles/menv.dir/src/Window.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_wctrans_t.h \
+  /opt/homebrew/include/glm/gtx/string_cast.inl \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdarg \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__mutex_base \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/system_error \
@@ -612,58 +704,6 @@ CMakeFiles/menv.dir/src/Window.cpp.o: \
   /opt/homebrew/include/glm/gtx/euler_angles.hpp \
   /opt/homebrew/include/glm/gtx/euler_angles.inl \
   /opt/homebrew/include/glm/gtx/compatibility.hpp \
-  /opt/homebrew/include/glm/gtx/../gtc/quaternion.hpp \
-  /opt/homebrew/include/glm/gtx/../gtc/../gtc/constants.hpp \
-  /opt/homebrew/include/glm/gtx/../gtc/../gtc/matrix_transform.hpp \
-  /opt/homebrew/include/glm/gtx/../gtc/../ext/vector_relational.hpp \
-  /opt/homebrew/include/glm/./ext/../detail/qualifier.hpp \
-  /opt/homebrew/include/glm/./ext/vector_relational.inl \
-  /opt/homebrew/include/glm/./ext/../vector_relational.hpp \
-  /opt/homebrew/include/glm/./ext/../common.hpp \
-  /opt/homebrew/include/glm/./ext/../detail/type_float.hpp \
-  /opt/homebrew/include/glm/gtx/../gtc/../ext/quaternion_common.hpp \
-  /opt/homebrew/include/glm/./ext/../ext/quaternion_geometric.hpp \
-  /opt/homebrew/include/glm/./ext/../exponential.hpp \
-  /opt/homebrew/include/glm/./ext/../ext/vector_relational.hpp \
-  /opt/homebrew/include/glm/./ext/quaternion_geometric.inl \
-  /opt/homebrew/include/glm/./ext/quaternion_common.inl \
-  /opt/homebrew/include/glm/gtx/../gtc/../ext/quaternion_float.hpp \
-  /opt/homebrew/include/glm/./ext/../detail/type_quat.hpp \
-  /opt/homebrew/include/glm/detail/../detail/type_mat3x3.hpp \
-  /opt/homebrew/include/glm/detail/../detail/type_mat4x4.hpp \
-  /opt/homebrew/include/glm/detail/../detail/type_vec3.hpp \
-  /opt/homebrew/include/glm/detail/../detail/type_vec4.hpp \
-  /opt/homebrew/include/glm/detail/../ext/vector_relational.hpp \
-  /opt/homebrew/include/glm/detail/../ext/quaternion_relational.hpp \
-  /opt/homebrew/include/glm/./ext/quaternion_relational.inl \
-  /opt/homebrew/include/glm/detail/../gtc/constants.hpp \
-  /opt/homebrew/include/glm/detail/../gtc/matrix_transform.hpp \
-  /opt/homebrew/include/glm/detail/type_quat.inl \
-  /opt/homebrew/include/glm/detail/../trigonometric.hpp \
-  /opt/homebrew/include/glm/detail/../ext/quaternion_geometric.hpp \
-  /opt/homebrew/include/glm/gtx/../gtc/../ext/quaternion_float_precision.hpp \
-  /opt/homebrew/include/glm/gtx/../gtc/../ext/quaternion_double.hpp \
-  /opt/homebrew/include/glm/gtx/../gtc/../ext/quaternion_double_precision.hpp \
-  /opt/homebrew/include/glm/gtx/../gtc/../ext/quaternion_relational.hpp \
-  /opt/homebrew/include/glm/gtx/../gtc/../ext/quaternion_geometric.hpp \
-  /opt/homebrew/include/glm/gtx/../gtc/../ext/quaternion_trigonometric.hpp \
-  /opt/homebrew/include/glm/./ext/scalar_constants.hpp \
-  /opt/homebrew/include/glm/./ext/vector_relational.hpp \
-  /opt/homebrew/include/glm/./ext/quaternion_trigonometric.inl \
-  /opt/homebrew/include/glm/gtx/../gtc/../ext/quaternion_transform.hpp \
-  /opt/homebrew/include/glm/./ext/quaternion_transform.inl \
-  /opt/homebrew/include/glm/gtx/../gtc/../detail/type_mat3x3.hpp \
-  /opt/homebrew/include/glm/gtx/../gtc/../detail/type_mat4x4.hpp \
-  /opt/homebrew/include/glm/gtx/../gtc/../detail/type_vec3.hpp \
-  /opt/homebrew/include/glm/gtx/../gtc/../detail/type_vec4.hpp \
-  /opt/homebrew/include/glm/gtx/../gtc/quaternion.inl \
-  /opt/homebrew/include/glm/gtx/../gtc/../exponential.hpp \
-  /opt/homebrew/include/glm/gtx/../gtc/epsilon.hpp \
-  /opt/homebrew/include/glm/gtx/../gtc/../detail/setup.hpp \
-  /opt/homebrew/include/glm/gtx/../gtc/../detail/qualifier.hpp \
-  /opt/homebrew/include/glm/gtx/../gtc/epsilon.inl \
-  /opt/homebrew/include/glm/gtx/../gtc/../vector_relational.hpp \
-  /opt/homebrew/include/glm/gtx/../gtc/../common.hpp \
   /opt/homebrew/include/glm/gtx/compatibility.inl \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Cube.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/vector \

@@ -41,7 +41,7 @@ bool Window::initializeObjects() {
     // cube = new Cube();
     // box = new Box();
     ground = new Ground();
-    wind = glm::vec3(1.0f, 0.0f, 0.0f);
+    wind = glm::vec3(0.0f, 0.0f, 5.0f);
     cloth = new Cloth(wind);
     // cube = new Cube(glm::vec3(-1, 0, -2), glm::vec3(1, 1, 1));
 
@@ -57,6 +57,11 @@ void Window::cleanUp() {
 
     // Delete the shader program.
     glDeleteProgram(shaderProgram);
+
+    //gui
+    ImGui_ImplOpenGL3_Shutdown();
+    ImGui_ImplGlfw_Shutdown();
+    ImGui::DestroyContext();
 }
 
 // for the Window
@@ -146,9 +151,33 @@ void Window::displayCallback(GLFWwindow* window) {
     cloth -> draw(Cam->GetViewProjectMtx(), Window::shaderProgram);
 
     // Gets events, including input such as keyboard and mouse or window resizing.
+    render(window);
     glfwPollEvents();
     // Swap buffers.
     glfwSwapBuffers(window);
+}
+
+void Window::render(GLFWwindow* window){
+
+    ImGui_ImplOpenGL3_NewFrame();
+    ImGui_ImplGlfw_NewFrame();
+    ImGui::NewFrame();
+
+    showWindow(window);
+
+    ImGui::Render();
+
+    ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
+}
+
+// add contents
+void Window::showWindow(GLFWwindow* window){
+    ImGui::Begin("Imgui");
+    ImGui::Text("Wind Velocity");  
+    ImGui::SliderFloat("Wind x", &cloth->wind.x, -10.0f, 10.0f);
+    ImGui::SliderFloat("Wind y", &cloth->wind.y, -10.0f, 10.0f);
+    ImGui::SliderFloat("Wind z", &cloth->wind.z, -10.0f, 10.0f);
+    ImGui::End();
 }
 
 // helper to reset the camera
@@ -182,6 +211,10 @@ void Window::keyCallback(GLFWwindow* window, int key, int scancode, int action, 
 }
 
 void Window::mouse_callback(GLFWwindow* window, int button, int action, int mods) {
+    ImGuiIO& io = ImGui::GetIO();
+    if (io.WantCaptureMouse) {
+        return;
+    }
     if (button == GLFW_MOUSE_BUTTON_LEFT) {
         LeftDown = (action == GLFW_PRESS);
     }

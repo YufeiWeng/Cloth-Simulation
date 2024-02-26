@@ -20,9 +20,9 @@ Cloth::Cloth(glm::vec3 wind) {
     for (int y = 0; y < num_particles_height; ++y) {
         for (int x = 0; x < num_particles_width; ++x) {
 
-            // generate z in range [-0.00001, 0.00001]
+            // generate z in range [-0.0001, 0.0001]
             static std::mt19937 gen(std::random_device{}());
-            static std::uniform_real_distribution<float> distr(-0.00001f, 0.00001f);
+            static std::uniform_real_distribution<float> distr(-0.0001f, 0.0001f);
             float z = distr(gen);
 
             glm::vec3 position = glm::vec3(dx * x - 2.5, dy * y - 1.5, z);
@@ -99,6 +99,7 @@ Cloth::Cloth(glm::vec3 wind) {
             glm::vec3 n0 = t->p1->Position - t->p0->Position;
             glm::vec3 n1 = t->p2->Position - t->p0->Position;
             t->area = 0.5f * glm::length(glm::cross(n0,n1));
+            // std::cout<< "Area1: " <<glm::to_string(t->area)<<std::endl;
             triangles.push_back(t);
 
             int index4 = (i + 1) * num_particles_width + j + 1;
@@ -112,7 +113,7 @@ Cloth::Cloth(glm::vec3 wind) {
             t2->p2 = particles[index3];
             glm::vec3 n2 = t2->p1->Position - t2->p0->Position;
             glm::vec3 n3 = t2->p2->Position - t2->p0->Position;
-            t->area = 0.5f * glm::length(glm::cross(n2,n3));
+            t2->area = 0.5f * glm::length(glm::cross(n2,n3));
             triangles.push_back(t2);
         }
     }
@@ -143,7 +144,7 @@ void Cloth::update(float deltaTime){
     for (Triangle* tri : triangles){
         //The fluid density 𝜌 of air at 15o C and a pressure of 101.325 kPa
         //(14.696 psi) is 1.225 kg/m3 and is used as a common default value
-        // tri -> computeAeroForce(wind, 1.225f);
+        tri -> computeAeroForce(wind, 1.225f);
     }
 
     applyAllForce(deltaTime);
@@ -174,6 +175,7 @@ void Cloth::updateNormal(){
         glm::vec3 n0 = p1->Position - p0->Position;
         glm::vec3 n1 = p2->Position - p0->Position;
         glm::vec3 newN = glm::normalize(glm::cross(n0,n1));
+        tri -> normal = newN;
 
         p0->Normal += newN;
         p1->Normal += newN;
@@ -187,6 +189,9 @@ void Cloth::updateNormal(){
     // at the end, normalize all
     for(int i = 0; i < normals.size(); i ++){
         normals[i] = glm::normalize(normals[i]);
+    }
+    for(int i = 0; i < particles.size(); i++){
+        particles[i]->Normal = glm::normalize(particles[i]->Normal);
     }
 }
 
@@ -229,6 +234,7 @@ void Cloth::openGLbind() {
 
 void Cloth::draw(const glm::mat4& viewProjMtx, GLuint shader){
     // actiavte the shader program
+    // std::cout << "draw" << std::endl;
     glUseProgram(shader);
 
     // get the locations and send the uniforms to the shader
@@ -245,4 +251,5 @@ void Cloth::draw(const glm::mat4& viewProjMtx, GLuint shader){
     // Unbind the VAO and shader program
     glBindVertexArray(0);
     glUseProgram(0);
+
 }

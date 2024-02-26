@@ -1641,6 +1641,7 @@ CMakeFiles/menv.dir/main.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_pr
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/compare \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/concepts \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdio \
@@ -1857,6 +1858,7 @@ CMakeFiles/menv.dir/main.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_pr
   /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
   /opt/homebrew/include/glm/detail/type_quat.hpp \
+  /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
   /opt/homebrew/include/glm/detail/type_vec3.hpp \
   /opt/homebrew/include/glm/detail/type_vec4.hpp \
@@ -1865,10 +1867,12 @@ CMakeFiles/menv.dir/main.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_pr
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
   /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
   /opt/homebrew/include/glm/ext/vector_int2.hpp \
   /opt/homebrew/include/glm/ext/vector_int3.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
   /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
   /opt/homebrew/include/glm/ext/vector_uint4.hpp \
@@ -2011,12 +2015,21 @@ CMakeFiles/menv.dir/main.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_pr
   /opt/homebrew/include/glm/fwd.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
   /opt/homebrew/include/glm/common.hpp \
   /opt/homebrew/include/glm/detail/qualifier.hpp \
   /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec2.hpp \
   /opt/homebrew/include/glm/detail/type_vec3.hpp \
   /opt/homebrew/include/glm/detail/type_vec4.hpp \
   /opt/homebrew/include/glm/exponential.hpp \
@@ -2033,10 +2046,30 @@ CMakeFiles/menv.dir/main.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_pr
   /opt/homebrew/include/glm/ext/quaternion_transform.hpp \
   /opt/homebrew/include/glm/ext/quaternion_trigonometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
+  /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
+  /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/vec1.hpp \
   /opt/homebrew/include/glm/mat4x4.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
@@ -2044,6 +2077,7 @@ CMakeFiles/menv.dir/main.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_pr
   /opt/homebrew/include/glm/vec3.hpp \
   /opt/homebrew/include/glm/vec4.hpp \
   /opt/homebrew/include/glm/vector_relational.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/gtc/constants.inl \
   /opt/homebrew/include/glm/gtc/epsilon.hpp \
   /opt/homebrew/include/glm/gtc/epsilon.inl \
@@ -2051,10 +2085,16 @@ CMakeFiles/menv.dir/main.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac_pr
   /opt/homebrew/include/glm/gtc/matrix_transform.inl \
   /opt/homebrew/include/glm/gtc/quaternion.hpp \
   /opt/homebrew/include/glm/gtc/quaternion.inl \
+  /opt/homebrew/include/glm/gtc/type_precision.hpp \
+  /opt/homebrew/include/glm/gtc/type_precision.inl \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.hpp \
   /opt/homebrew/include/glm/gtx/compatibility.hpp \
   /opt/homebrew/include/glm/gtx/compatibility.inl \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.inl \
   /opt/homebrew/include/glm/gtx/euler_angles.hpp \
   /opt/homebrew/include/glm/gtx/euler_angles.inl \
+  /opt/homebrew/include/glm/gtx/string_cast.hpp \
+  /opt/homebrew/include/glm/gtx/string_cast.inl \
   /opt/homebrew/include/glm/gtx/transform.hpp \
   /opt/homebrew/include/glm/gtx/transform.inl \
   /opt/homebrew/include/glm/integer.hpp \
@@ -2324,6 +2364,7 @@ CMakeFiles/menv.dir/src/Box.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/compare \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/concepts \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdio \
@@ -2511,7 +2552,10 @@ CMakeFiles/menv.dir/src/Box.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Box.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/core.h \
   /opt/homebrew/include/GLFW/glfw3.h \
+  /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/qualifier.hpp \
   /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_float.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
@@ -2521,15 +2565,22 @@ CMakeFiles/menv.dir/src/Box.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac
   /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_quat.hpp \
+  /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
   /opt/homebrew/include/glm/detail/type_vec3.hpp \
   /opt/homebrew/include/glm/detail/type_vec4.hpp \
+  /opt/homebrew/include/glm/exponential.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
   /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
   /opt/homebrew/include/glm/ext/vector_int2.hpp \
   /opt/homebrew/include/glm/ext/vector_int3.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
   /opt/homebrew/include/glm/ext/vector_uint4.hpp \
@@ -2537,6 +2588,7 @@ CMakeFiles/menv.dir/src/Box.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac
   /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
+  /opt/homebrew/include/glm/vector_relational.hpp \
   /opt/homebrew/include/glm/ext/matrix_clip_space.inl \
   /opt/homebrew/include/glm/ext/matrix_double2x2.hpp \
   /opt/homebrew/include/glm/ext/matrix_double2x2_precision.hpp \
@@ -2576,6 +2628,12 @@ CMakeFiles/menv.dir/src/Box.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac
   /opt/homebrew/include/glm/ext/matrix_float4x4_precision.hpp \
   /opt/homebrew/include/glm/ext/matrix_projection.inl \
   /opt/homebrew/include/glm/ext/matrix_transform.inl \
+  /opt/homebrew/include/glm/ext/quaternion_common.inl \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.inl \
+  /opt/homebrew/include/glm/ext/quaternion_relational.inl \
+  /opt/homebrew/include/glm/ext/quaternion_transform.inl \
+  /opt/homebrew/include/glm/ext/quaternion_trigonometric.inl \
+  /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.inl \
   /opt/homebrew/include/glm/ext/vector_bool2.hpp \
   /opt/homebrew/include/glm/ext/vector_bool2_precision.hpp \
@@ -2601,6 +2659,8 @@ CMakeFiles/menv.dir/src/Box.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac
   /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
   /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.inl \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
@@ -2609,10 +2669,20 @@ CMakeFiles/menv.dir/src/Box.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac
   /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/common.hpp \
   /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec3.hpp \
+  /opt/homebrew/include/glm/detail/type_vec4.hpp \
   /opt/homebrew/include/glm/exponential.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
+  /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/simd/platform.h \
+  /opt/homebrew/include/glm/trigonometric.hpp \
   /opt/homebrew/include/glm/vector_relational.hpp \
   /opt/homebrew/include/glm/detail/compute_vector_relational.hpp \
   /opt/homebrew/include/glm/detail/_fixes.hpp \
@@ -2640,6 +2710,7 @@ CMakeFiles/menv.dir/src/Box.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac
   /opt/homebrew/include/glm/detail/type_mat4x2.inl \
   /opt/homebrew/include/glm/detail/type_mat4x3.inl \
   /opt/homebrew/include/glm/detail/type_mat4x4.inl \
+  /opt/homebrew/include/glm/detail/type_quat.inl \
   /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec1.inl \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
@@ -2652,21 +2723,82 @@ CMakeFiles/menv.dir/src/Box.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_mac
   /opt/homebrew/include/glm/fwd.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/qualifier.hpp \
+  /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec2.hpp \
+  /opt/homebrew/include/glm/detail/type_vec3.hpp \
+  /opt/homebrew/include/glm/detail/type_vec4.hpp \
+  /opt/homebrew/include/glm/exponential.hpp \
   /opt/homebrew/include/glm/ext/matrix_clip_space.hpp \
   /opt/homebrew/include/glm/ext/matrix_projection.hpp \
   /opt/homebrew/include/glm/ext/matrix_transform.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_common.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_double.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_double_precision.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_float.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_float_precision.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_relational.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_transform.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_trigonometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
+  /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
+  /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
+  /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/vec1.hpp \
   /opt/homebrew/include/glm/mat4x4.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
   /opt/homebrew/include/glm/vec2.hpp \
   /opt/homebrew/include/glm/vec3.hpp \
   /opt/homebrew/include/glm/vec4.hpp \
+  /opt/homebrew/include/glm/vector_relational.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/gtc/constants.inl \
+  /opt/homebrew/include/glm/gtc/epsilon.hpp \
+  /opt/homebrew/include/glm/gtc/epsilon.inl \
   /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
   /opt/homebrew/include/glm/gtc/matrix_transform.inl \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.inl \
+  /opt/homebrew/include/glm/gtc/type_precision.hpp \
+  /opt/homebrew/include/glm/gtc/type_precision.inl \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.hpp \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.inl \
+  /opt/homebrew/include/glm/gtx/string_cast.hpp \
+  /opt/homebrew/include/glm/gtx/string_cast.inl \
   /opt/homebrew/include/glm/gtx/transform.hpp \
   /opt/homebrew/include/glm/gtx/transform.inl \
   /opt/homebrew/include/glm/integer.hpp \
@@ -2935,6 +3067,7 @@ CMakeFiles/menv.dir/src/Camera.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/compare \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/concepts \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdio \
@@ -3135,6 +3268,7 @@ CMakeFiles/menv.dir/src/Camera.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
   /opt/homebrew/include/glm/detail/type_quat.hpp \
+  /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
   /opt/homebrew/include/glm/detail/type_vec3.hpp \
   /opt/homebrew/include/glm/detail/type_vec4.hpp \
@@ -3143,10 +3277,12 @@ CMakeFiles/menv.dir/src/Camera.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
   /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
   /opt/homebrew/include/glm/ext/vector_int2.hpp \
   /opt/homebrew/include/glm/ext/vector_int3.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
   /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
   /opt/homebrew/include/glm/ext/vector_uint4.hpp \
@@ -3289,12 +3425,21 @@ CMakeFiles/menv.dir/src/Camera.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/fwd.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
   /opt/homebrew/include/glm/common.hpp \
   /opt/homebrew/include/glm/detail/qualifier.hpp \
   /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec2.hpp \
   /opt/homebrew/include/glm/detail/type_vec3.hpp \
   /opt/homebrew/include/glm/detail/type_vec4.hpp \
   /opt/homebrew/include/glm/exponential.hpp \
@@ -3311,10 +3456,30 @@ CMakeFiles/menv.dir/src/Camera.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/ext/quaternion_transform.hpp \
   /opt/homebrew/include/glm/ext/quaternion_trigonometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
+  /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
+  /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/vec1.hpp \
   /opt/homebrew/include/glm/mat4x4.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
@@ -3322,6 +3487,7 @@ CMakeFiles/menv.dir/src/Camera.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/vec3.hpp \
   /opt/homebrew/include/glm/vec4.hpp \
   /opt/homebrew/include/glm/vector_relational.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/gtc/constants.inl \
   /opt/homebrew/include/glm/gtc/epsilon.hpp \
   /opt/homebrew/include/glm/gtc/epsilon.inl \
@@ -3329,10 +3495,16 @@ CMakeFiles/menv.dir/src/Camera.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/gtc/matrix_transform.inl \
   /opt/homebrew/include/glm/gtc/quaternion.hpp \
   /opt/homebrew/include/glm/gtc/quaternion.inl \
+  /opt/homebrew/include/glm/gtc/type_precision.hpp \
+  /opt/homebrew/include/glm/gtc/type_precision.inl \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.hpp \
   /opt/homebrew/include/glm/gtx/compatibility.hpp \
   /opt/homebrew/include/glm/gtx/compatibility.inl \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.inl \
   /opt/homebrew/include/glm/gtx/euler_angles.hpp \
   /opt/homebrew/include/glm/gtx/euler_angles.inl \
+  /opt/homebrew/include/glm/gtx/string_cast.hpp \
+  /opt/homebrew/include/glm/gtx/string_cast.inl \
   /opt/homebrew/include/glm/gtx/transform.hpp \
   /opt/homebrew/include/glm/gtx/transform.inl \
   /opt/homebrew/include/glm/integer.hpp \
@@ -3602,6 +3774,7 @@ CMakeFiles/menv.dir/src/Cloth.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_m
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/compare \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/concepts \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdio \
@@ -3794,7 +3967,10 @@ CMakeFiles/menv.dir/src/Cloth.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_m
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Triangle.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/core.h \
   /opt/homebrew/include/GLFW/glfw3.h \
+  /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/qualifier.hpp \
   /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_float.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
@@ -3804,15 +3980,22 @@ CMakeFiles/menv.dir/src/Cloth.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_m
   /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_quat.hpp \
+  /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
   /opt/homebrew/include/glm/detail/type_vec3.hpp \
   /opt/homebrew/include/glm/detail/type_vec4.hpp \
+  /opt/homebrew/include/glm/exponential.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
   /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
   /opt/homebrew/include/glm/ext/vector_int2.hpp \
   /opt/homebrew/include/glm/ext/vector_int3.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
   /opt/homebrew/include/glm/ext/vector_uint4.hpp \
@@ -3820,6 +4003,7 @@ CMakeFiles/menv.dir/src/Cloth.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_m
   /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
+  /opt/homebrew/include/glm/vector_relational.hpp \
   /opt/homebrew/include/glm/ext/matrix_clip_space.inl \
   /opt/homebrew/include/glm/ext/matrix_double2x2.hpp \
   /opt/homebrew/include/glm/ext/matrix_double2x2_precision.hpp \
@@ -3859,6 +4043,12 @@ CMakeFiles/menv.dir/src/Cloth.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_m
   /opt/homebrew/include/glm/ext/matrix_float4x4_precision.hpp \
   /opt/homebrew/include/glm/ext/matrix_projection.inl \
   /opt/homebrew/include/glm/ext/matrix_transform.inl \
+  /opt/homebrew/include/glm/ext/quaternion_common.inl \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.inl \
+  /opt/homebrew/include/glm/ext/quaternion_relational.inl \
+  /opt/homebrew/include/glm/ext/quaternion_transform.inl \
+  /opt/homebrew/include/glm/ext/quaternion_trigonometric.inl \
+  /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.inl \
   /opt/homebrew/include/glm/ext/vector_bool2.hpp \
   /opt/homebrew/include/glm/ext/vector_bool2_precision.hpp \
@@ -3884,6 +4074,8 @@ CMakeFiles/menv.dir/src/Cloth.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_m
   /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
   /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.inl \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
@@ -3892,10 +4084,20 @@ CMakeFiles/menv.dir/src/Cloth.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_m
   /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/common.hpp \
   /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec3.hpp \
+  /opt/homebrew/include/glm/detail/type_vec4.hpp \
   /opt/homebrew/include/glm/exponential.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
+  /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/simd/platform.h \
+  /opt/homebrew/include/glm/trigonometric.hpp \
   /opt/homebrew/include/glm/vector_relational.hpp \
   /opt/homebrew/include/glm/detail/compute_vector_relational.hpp \
   /opt/homebrew/include/glm/detail/_fixes.hpp \
@@ -3923,6 +4125,7 @@ CMakeFiles/menv.dir/src/Cloth.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_m
   /opt/homebrew/include/glm/detail/type_mat4x2.inl \
   /opt/homebrew/include/glm/detail/type_mat4x3.inl \
   /opt/homebrew/include/glm/detail/type_mat4x4.inl \
+  /opt/homebrew/include/glm/detail/type_quat.inl \
   /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec1.inl \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
@@ -3935,21 +4138,82 @@ CMakeFiles/menv.dir/src/Cloth.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_m
   /opt/homebrew/include/glm/fwd.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/qualifier.hpp \
+  /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec2.hpp \
+  /opt/homebrew/include/glm/detail/type_vec3.hpp \
+  /opt/homebrew/include/glm/detail/type_vec4.hpp \
+  /opt/homebrew/include/glm/exponential.hpp \
   /opt/homebrew/include/glm/ext/matrix_clip_space.hpp \
   /opt/homebrew/include/glm/ext/matrix_projection.hpp \
   /opt/homebrew/include/glm/ext/matrix_transform.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_common.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_double.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_double_precision.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_float.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_float_precision.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_relational.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_transform.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_trigonometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
+  /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
+  /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
+  /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/vec1.hpp \
   /opt/homebrew/include/glm/mat4x4.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
   /opt/homebrew/include/glm/vec2.hpp \
   /opt/homebrew/include/glm/vec3.hpp \
   /opt/homebrew/include/glm/vec4.hpp \
+  /opt/homebrew/include/glm/vector_relational.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/gtc/constants.inl \
+  /opt/homebrew/include/glm/gtc/epsilon.hpp \
+  /opt/homebrew/include/glm/gtc/epsilon.inl \
   /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
   /opt/homebrew/include/glm/gtc/matrix_transform.inl \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.inl \
+  /opt/homebrew/include/glm/gtc/type_precision.hpp \
+  /opt/homebrew/include/glm/gtc/type_precision.inl \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.hpp \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.inl \
+  /opt/homebrew/include/glm/gtx/string_cast.hpp \
+  /opt/homebrew/include/glm/gtx/string_cast.inl \
   /opt/homebrew/include/glm/gtx/transform.hpp \
   /opt/homebrew/include/glm/gtx/transform.inl \
   /opt/homebrew/include/glm/integer.hpp \
@@ -4219,6 +4483,7 @@ CMakeFiles/menv.dir/src/Cube.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_ma
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/compare \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/concepts \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdio \
@@ -4406,7 +4671,10 @@ CMakeFiles/menv.dir/src/Cube.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_ma
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Cube.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/core.h \
   /opt/homebrew/include/GLFW/glfw3.h \
+  /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/qualifier.hpp \
   /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_float.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
@@ -4416,15 +4684,22 @@ CMakeFiles/menv.dir/src/Cube.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_ma
   /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_quat.hpp \
+  /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
   /opt/homebrew/include/glm/detail/type_vec3.hpp \
   /opt/homebrew/include/glm/detail/type_vec4.hpp \
+  /opt/homebrew/include/glm/exponential.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
   /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
   /opt/homebrew/include/glm/ext/vector_int2.hpp \
   /opt/homebrew/include/glm/ext/vector_int3.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
   /opt/homebrew/include/glm/ext/vector_uint4.hpp \
@@ -4432,6 +4707,7 @@ CMakeFiles/menv.dir/src/Cube.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_ma
   /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
+  /opt/homebrew/include/glm/vector_relational.hpp \
   /opt/homebrew/include/glm/ext/matrix_clip_space.inl \
   /opt/homebrew/include/glm/ext/matrix_double2x2.hpp \
   /opt/homebrew/include/glm/ext/matrix_double2x2_precision.hpp \
@@ -4471,6 +4747,12 @@ CMakeFiles/menv.dir/src/Cube.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_ma
   /opt/homebrew/include/glm/ext/matrix_float4x4_precision.hpp \
   /opt/homebrew/include/glm/ext/matrix_projection.inl \
   /opt/homebrew/include/glm/ext/matrix_transform.inl \
+  /opt/homebrew/include/glm/ext/quaternion_common.inl \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.inl \
+  /opt/homebrew/include/glm/ext/quaternion_relational.inl \
+  /opt/homebrew/include/glm/ext/quaternion_transform.inl \
+  /opt/homebrew/include/glm/ext/quaternion_trigonometric.inl \
+  /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.inl \
   /opt/homebrew/include/glm/ext/vector_bool2.hpp \
   /opt/homebrew/include/glm/ext/vector_bool2_precision.hpp \
@@ -4496,6 +4778,8 @@ CMakeFiles/menv.dir/src/Cube.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_ma
   /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
   /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.inl \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
@@ -4504,10 +4788,20 @@ CMakeFiles/menv.dir/src/Cube.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_ma
   /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/common.hpp \
   /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec3.hpp \
+  /opt/homebrew/include/glm/detail/type_vec4.hpp \
   /opt/homebrew/include/glm/exponential.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
+  /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/simd/platform.h \
+  /opt/homebrew/include/glm/trigonometric.hpp \
   /opt/homebrew/include/glm/vector_relational.hpp \
   /opt/homebrew/include/glm/detail/compute_vector_relational.hpp \
   /opt/homebrew/include/glm/detail/_fixes.hpp \
@@ -4535,6 +4829,7 @@ CMakeFiles/menv.dir/src/Cube.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_ma
   /opt/homebrew/include/glm/detail/type_mat4x2.inl \
   /opt/homebrew/include/glm/detail/type_mat4x3.inl \
   /opt/homebrew/include/glm/detail/type_mat4x4.inl \
+  /opt/homebrew/include/glm/detail/type_quat.inl \
   /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec1.inl \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
@@ -4547,21 +4842,82 @@ CMakeFiles/menv.dir/src/Cube.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_ma
   /opt/homebrew/include/glm/fwd.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/qualifier.hpp \
+  /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec2.hpp \
+  /opt/homebrew/include/glm/detail/type_vec3.hpp \
+  /opt/homebrew/include/glm/detail/type_vec4.hpp \
+  /opt/homebrew/include/glm/exponential.hpp \
   /opt/homebrew/include/glm/ext/matrix_clip_space.hpp \
   /opt/homebrew/include/glm/ext/matrix_projection.hpp \
   /opt/homebrew/include/glm/ext/matrix_transform.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_common.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_double.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_double_precision.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_float.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_float_precision.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_relational.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_transform.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_trigonometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
+  /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
+  /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
+  /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/vec1.hpp \
   /opt/homebrew/include/glm/mat4x4.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
   /opt/homebrew/include/glm/vec2.hpp \
   /opt/homebrew/include/glm/vec3.hpp \
   /opt/homebrew/include/glm/vec4.hpp \
+  /opt/homebrew/include/glm/vector_relational.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/gtc/constants.inl \
+  /opt/homebrew/include/glm/gtc/epsilon.hpp \
+  /opt/homebrew/include/glm/gtc/epsilon.inl \
   /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
   /opt/homebrew/include/glm/gtc/matrix_transform.inl \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.inl \
+  /opt/homebrew/include/glm/gtc/type_precision.hpp \
+  /opt/homebrew/include/glm/gtc/type_precision.inl \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.hpp \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.inl \
+  /opt/homebrew/include/glm/gtx/string_cast.hpp \
+  /opt/homebrew/include/glm/gtx/string_cast.inl \
   /opt/homebrew/include/glm/gtx/transform.hpp \
   /opt/homebrew/include/glm/gtx/transform.inl \
   /opt/homebrew/include/glm/integer.hpp \
@@ -4831,6 +5187,7 @@ CMakeFiles/menv.dir/src/Ground.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/compare \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/concepts \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdio \
@@ -5018,7 +5375,10 @@ CMakeFiles/menv.dir/src/Ground.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Ground.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/core.h \
   /opt/homebrew/include/GLFW/glfw3.h \
+  /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/qualifier.hpp \
   /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_float.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
@@ -5028,15 +5388,22 @@ CMakeFiles/menv.dir/src/Ground.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_quat.hpp \
+  /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
   /opt/homebrew/include/glm/detail/type_vec3.hpp \
   /opt/homebrew/include/glm/detail/type_vec4.hpp \
+  /opt/homebrew/include/glm/exponential.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
   /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
   /opt/homebrew/include/glm/ext/vector_int2.hpp \
   /opt/homebrew/include/glm/ext/vector_int3.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
   /opt/homebrew/include/glm/ext/vector_uint4.hpp \
@@ -5044,6 +5411,7 @@ CMakeFiles/menv.dir/src/Ground.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
+  /opt/homebrew/include/glm/vector_relational.hpp \
   /opt/homebrew/include/glm/ext/matrix_clip_space.inl \
   /opt/homebrew/include/glm/ext/matrix_double2x2.hpp \
   /opt/homebrew/include/glm/ext/matrix_double2x2_precision.hpp \
@@ -5083,6 +5451,12 @@ CMakeFiles/menv.dir/src/Ground.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/ext/matrix_float4x4_precision.hpp \
   /opt/homebrew/include/glm/ext/matrix_projection.inl \
   /opt/homebrew/include/glm/ext/matrix_transform.inl \
+  /opt/homebrew/include/glm/ext/quaternion_common.inl \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.inl \
+  /opt/homebrew/include/glm/ext/quaternion_relational.inl \
+  /opt/homebrew/include/glm/ext/quaternion_transform.inl \
+  /opt/homebrew/include/glm/ext/quaternion_trigonometric.inl \
+  /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.inl \
   /opt/homebrew/include/glm/ext/vector_bool2.hpp \
   /opt/homebrew/include/glm/ext/vector_bool2_precision.hpp \
@@ -5108,6 +5482,8 @@ CMakeFiles/menv.dir/src/Ground.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
   /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.inl \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
@@ -5116,10 +5492,20 @@ CMakeFiles/menv.dir/src/Ground.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/common.hpp \
   /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec3.hpp \
+  /opt/homebrew/include/glm/detail/type_vec4.hpp \
   /opt/homebrew/include/glm/exponential.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
+  /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/simd/platform.h \
+  /opt/homebrew/include/glm/trigonometric.hpp \
   /opt/homebrew/include/glm/vector_relational.hpp \
   /opt/homebrew/include/glm/detail/compute_vector_relational.hpp \
   /opt/homebrew/include/glm/detail/_fixes.hpp \
@@ -5147,6 +5533,7 @@ CMakeFiles/menv.dir/src/Ground.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/detail/type_mat4x2.inl \
   /opt/homebrew/include/glm/detail/type_mat4x3.inl \
   /opt/homebrew/include/glm/detail/type_mat4x4.inl \
+  /opt/homebrew/include/glm/detail/type_quat.inl \
   /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec1.inl \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
@@ -5159,21 +5546,82 @@ CMakeFiles/menv.dir/src/Ground.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/fwd.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/qualifier.hpp \
+  /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec2.hpp \
+  /opt/homebrew/include/glm/detail/type_vec3.hpp \
+  /opt/homebrew/include/glm/detail/type_vec4.hpp \
+  /opt/homebrew/include/glm/exponential.hpp \
   /opt/homebrew/include/glm/ext/matrix_clip_space.hpp \
   /opt/homebrew/include/glm/ext/matrix_projection.hpp \
   /opt/homebrew/include/glm/ext/matrix_transform.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_common.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_double.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_double_precision.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_float.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_float_precision.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_relational.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_transform.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_trigonometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
+  /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
+  /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
+  /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/vec1.hpp \
   /opt/homebrew/include/glm/mat4x4.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
   /opt/homebrew/include/glm/vec2.hpp \
   /opt/homebrew/include/glm/vec3.hpp \
   /opt/homebrew/include/glm/vec4.hpp \
+  /opt/homebrew/include/glm/vector_relational.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/gtc/constants.inl \
+  /opt/homebrew/include/glm/gtc/epsilon.hpp \
+  /opt/homebrew/include/glm/gtc/epsilon.inl \
   /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
   /opt/homebrew/include/glm/gtc/matrix_transform.inl \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.inl \
+  /opt/homebrew/include/glm/gtc/type_precision.hpp \
+  /opt/homebrew/include/glm/gtc/type_precision.inl \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.hpp \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.inl \
+  /opt/homebrew/include/glm/gtx/string_cast.hpp \
+  /opt/homebrew/include/glm/gtx/string_cast.inl \
   /opt/homebrew/include/glm/gtx/transform.hpp \
   /opt/homebrew/include/glm/gtx/transform.inl \
   /opt/homebrew/include/glm/integer.hpp \
@@ -5442,6 +5890,7 @@ CMakeFiles/menv.dir/src/Particle.cpp.o: /Users/yufeiweng/Downloads/cse169_starte
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/compare \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/concepts \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdio \
@@ -5628,7 +6077,10 @@ CMakeFiles/menv.dir/src/Particle.cpp.o: /Users/yufeiweng/Downloads/cse169_starte
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Particle.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/core.h \
   /opt/homebrew/include/GLFW/glfw3.h \
+  /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/qualifier.hpp \
   /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_float.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
@@ -5638,15 +6090,22 @@ CMakeFiles/menv.dir/src/Particle.cpp.o: /Users/yufeiweng/Downloads/cse169_starte
   /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_quat.hpp \
+  /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
   /opt/homebrew/include/glm/detail/type_vec3.hpp \
   /opt/homebrew/include/glm/detail/type_vec4.hpp \
+  /opt/homebrew/include/glm/exponential.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
   /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
   /opt/homebrew/include/glm/ext/vector_int2.hpp \
   /opt/homebrew/include/glm/ext/vector_int3.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
   /opt/homebrew/include/glm/ext/vector_uint4.hpp \
@@ -5654,6 +6113,7 @@ CMakeFiles/menv.dir/src/Particle.cpp.o: /Users/yufeiweng/Downloads/cse169_starte
   /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
+  /opt/homebrew/include/glm/vector_relational.hpp \
   /opt/homebrew/include/glm/ext/matrix_clip_space.inl \
   /opt/homebrew/include/glm/ext/matrix_double2x2.hpp \
   /opt/homebrew/include/glm/ext/matrix_double2x2_precision.hpp \
@@ -5693,6 +6153,12 @@ CMakeFiles/menv.dir/src/Particle.cpp.o: /Users/yufeiweng/Downloads/cse169_starte
   /opt/homebrew/include/glm/ext/matrix_float4x4_precision.hpp \
   /opt/homebrew/include/glm/ext/matrix_projection.inl \
   /opt/homebrew/include/glm/ext/matrix_transform.inl \
+  /opt/homebrew/include/glm/ext/quaternion_common.inl \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.inl \
+  /opt/homebrew/include/glm/ext/quaternion_relational.inl \
+  /opt/homebrew/include/glm/ext/quaternion_transform.inl \
+  /opt/homebrew/include/glm/ext/quaternion_trigonometric.inl \
+  /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.inl \
   /opt/homebrew/include/glm/ext/vector_bool2.hpp \
   /opt/homebrew/include/glm/ext/vector_bool2_precision.hpp \
@@ -5718,6 +6184,8 @@ CMakeFiles/menv.dir/src/Particle.cpp.o: /Users/yufeiweng/Downloads/cse169_starte
   /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
   /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.inl \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
@@ -5726,10 +6194,20 @@ CMakeFiles/menv.dir/src/Particle.cpp.o: /Users/yufeiweng/Downloads/cse169_starte
   /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/common.hpp \
   /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec3.hpp \
+  /opt/homebrew/include/glm/detail/type_vec4.hpp \
   /opt/homebrew/include/glm/exponential.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
+  /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/simd/platform.h \
+  /opt/homebrew/include/glm/trigonometric.hpp \
   /opt/homebrew/include/glm/vector_relational.hpp \
   /opt/homebrew/include/glm/detail/compute_vector_relational.hpp \
   /opt/homebrew/include/glm/detail/_fixes.hpp \
@@ -5757,6 +6235,7 @@ CMakeFiles/menv.dir/src/Particle.cpp.o: /Users/yufeiweng/Downloads/cse169_starte
   /opt/homebrew/include/glm/detail/type_mat4x2.inl \
   /opt/homebrew/include/glm/detail/type_mat4x3.inl \
   /opt/homebrew/include/glm/detail/type_mat4x4.inl \
+  /opt/homebrew/include/glm/detail/type_quat.inl \
   /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec1.inl \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
@@ -5769,21 +6248,82 @@ CMakeFiles/menv.dir/src/Particle.cpp.o: /Users/yufeiweng/Downloads/cse169_starte
   /opt/homebrew/include/glm/fwd.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/qualifier.hpp \
+  /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec2.hpp \
+  /opt/homebrew/include/glm/detail/type_vec3.hpp \
+  /opt/homebrew/include/glm/detail/type_vec4.hpp \
+  /opt/homebrew/include/glm/exponential.hpp \
   /opt/homebrew/include/glm/ext/matrix_clip_space.hpp \
   /opt/homebrew/include/glm/ext/matrix_projection.hpp \
   /opt/homebrew/include/glm/ext/matrix_transform.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_common.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_double.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_double_precision.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_float.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_float_precision.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_relational.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_transform.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_trigonometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
+  /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
+  /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
+  /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/vec1.hpp \
   /opt/homebrew/include/glm/mat4x4.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
   /opt/homebrew/include/glm/vec2.hpp \
   /opt/homebrew/include/glm/vec3.hpp \
   /opt/homebrew/include/glm/vec4.hpp \
+  /opt/homebrew/include/glm/vector_relational.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/gtc/constants.inl \
+  /opt/homebrew/include/glm/gtc/epsilon.hpp \
+  /opt/homebrew/include/glm/gtc/epsilon.inl \
   /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
   /opt/homebrew/include/glm/gtc/matrix_transform.inl \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.inl \
+  /opt/homebrew/include/glm/gtc/type_precision.hpp \
+  /opt/homebrew/include/glm/gtc/type_precision.inl \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.hpp \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.inl \
+  /opt/homebrew/include/glm/gtx/string_cast.hpp \
+  /opt/homebrew/include/glm/gtx/string_cast.inl \
   /opt/homebrew/include/glm/gtx/transform.hpp \
   /opt/homebrew/include/glm/gtx/transform.inl \
   /opt/homebrew/include/glm/integer.hpp \
@@ -6053,6 +6593,7 @@ CMakeFiles/menv.dir/src/Shader.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/compare \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/concepts \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdio \
@@ -6245,7 +6786,10 @@ CMakeFiles/menv.dir/src/Shader.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Shader.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/core.h \
   /opt/homebrew/include/GLFW/glfw3.h \
+  /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/qualifier.hpp \
   /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_float.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
@@ -6255,15 +6799,22 @@ CMakeFiles/menv.dir/src/Shader.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_quat.hpp \
+  /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
   /opt/homebrew/include/glm/detail/type_vec3.hpp \
   /opt/homebrew/include/glm/detail/type_vec4.hpp \
+  /opt/homebrew/include/glm/exponential.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
   /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
   /opt/homebrew/include/glm/ext/vector_int2.hpp \
   /opt/homebrew/include/glm/ext/vector_int3.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
   /opt/homebrew/include/glm/ext/vector_uint4.hpp \
@@ -6271,6 +6822,7 @@ CMakeFiles/menv.dir/src/Shader.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
+  /opt/homebrew/include/glm/vector_relational.hpp \
   /opt/homebrew/include/glm/ext/matrix_clip_space.inl \
   /opt/homebrew/include/glm/ext/matrix_double2x2.hpp \
   /opt/homebrew/include/glm/ext/matrix_double2x2_precision.hpp \
@@ -6310,6 +6862,12 @@ CMakeFiles/menv.dir/src/Shader.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/ext/matrix_float4x4_precision.hpp \
   /opt/homebrew/include/glm/ext/matrix_projection.inl \
   /opt/homebrew/include/glm/ext/matrix_transform.inl \
+  /opt/homebrew/include/glm/ext/quaternion_common.inl \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.inl \
+  /opt/homebrew/include/glm/ext/quaternion_relational.inl \
+  /opt/homebrew/include/glm/ext/quaternion_transform.inl \
+  /opt/homebrew/include/glm/ext/quaternion_trigonometric.inl \
+  /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.inl \
   /opt/homebrew/include/glm/ext/vector_bool2.hpp \
   /opt/homebrew/include/glm/ext/vector_bool2_precision.hpp \
@@ -6335,6 +6893,8 @@ CMakeFiles/menv.dir/src/Shader.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
   /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.inl \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
@@ -6343,10 +6903,20 @@ CMakeFiles/menv.dir/src/Shader.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/common.hpp \
   /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec3.hpp \
+  /opt/homebrew/include/glm/detail/type_vec4.hpp \
   /opt/homebrew/include/glm/exponential.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
+  /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/simd/platform.h \
+  /opt/homebrew/include/glm/trigonometric.hpp \
   /opt/homebrew/include/glm/vector_relational.hpp \
   /opt/homebrew/include/glm/detail/compute_vector_relational.hpp \
   /opt/homebrew/include/glm/detail/_fixes.hpp \
@@ -6374,6 +6944,7 @@ CMakeFiles/menv.dir/src/Shader.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/detail/type_mat4x2.inl \
   /opt/homebrew/include/glm/detail/type_mat4x3.inl \
   /opt/homebrew/include/glm/detail/type_mat4x4.inl \
+  /opt/homebrew/include/glm/detail/type_quat.inl \
   /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec1.inl \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
@@ -6386,21 +6957,82 @@ CMakeFiles/menv.dir/src/Shader.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/fwd.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/qualifier.hpp \
+  /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec2.hpp \
+  /opt/homebrew/include/glm/detail/type_vec3.hpp \
+  /opt/homebrew/include/glm/detail/type_vec4.hpp \
+  /opt/homebrew/include/glm/exponential.hpp \
   /opt/homebrew/include/glm/ext/matrix_clip_space.hpp \
   /opt/homebrew/include/glm/ext/matrix_projection.hpp \
   /opt/homebrew/include/glm/ext/matrix_transform.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_common.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_double.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_double_precision.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_float.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_float_precision.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_relational.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_transform.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_trigonometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
+  /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
+  /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
+  /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/vec1.hpp \
   /opt/homebrew/include/glm/mat4x4.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
   /opt/homebrew/include/glm/vec2.hpp \
   /opt/homebrew/include/glm/vec3.hpp \
   /opt/homebrew/include/glm/vec4.hpp \
+  /opt/homebrew/include/glm/vector_relational.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/gtc/constants.inl \
+  /opt/homebrew/include/glm/gtc/epsilon.hpp \
+  /opt/homebrew/include/glm/gtc/epsilon.inl \
   /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
   /opt/homebrew/include/glm/gtc/matrix_transform.inl \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.inl \
+  /opt/homebrew/include/glm/gtc/type_precision.hpp \
+  /opt/homebrew/include/glm/gtc/type_precision.inl \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.hpp \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.inl \
+  /opt/homebrew/include/glm/gtx/string_cast.hpp \
+  /opt/homebrew/include/glm/gtx/string_cast.inl \
   /opt/homebrew/include/glm/gtx/transform.hpp \
   /opt/homebrew/include/glm/gtx/transform.inl \
   /opt/homebrew/include/glm/integer.hpp \
@@ -6670,6 +7302,7 @@ CMakeFiles/menv.dir/src/SpringDamper.cpp.o: /Users/yufeiweng/Downloads/cse169_st
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/compare \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/concepts \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdio \
@@ -6858,7 +7491,10 @@ CMakeFiles/menv.dir/src/SpringDamper.cpp.o: /Users/yufeiweng/Downloads/cse169_st
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/SpringDamper.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/core.h \
   /opt/homebrew/include/GLFW/glfw3.h \
+  /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/qualifier.hpp \
   /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_float.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
@@ -6868,15 +7504,22 @@ CMakeFiles/menv.dir/src/SpringDamper.cpp.o: /Users/yufeiweng/Downloads/cse169_st
   /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_quat.hpp \
+  /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
   /opt/homebrew/include/glm/detail/type_vec3.hpp \
   /opt/homebrew/include/glm/detail/type_vec4.hpp \
+  /opt/homebrew/include/glm/exponential.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
   /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
   /opt/homebrew/include/glm/ext/vector_int2.hpp \
   /opt/homebrew/include/glm/ext/vector_int3.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
   /opt/homebrew/include/glm/ext/vector_uint4.hpp \
@@ -6884,6 +7527,7 @@ CMakeFiles/menv.dir/src/SpringDamper.cpp.o: /Users/yufeiweng/Downloads/cse169_st
   /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
+  /opt/homebrew/include/glm/vector_relational.hpp \
   /opt/homebrew/include/glm/ext/matrix_clip_space.inl \
   /opt/homebrew/include/glm/ext/matrix_double2x2.hpp \
   /opt/homebrew/include/glm/ext/matrix_double2x2_precision.hpp \
@@ -6923,6 +7567,12 @@ CMakeFiles/menv.dir/src/SpringDamper.cpp.o: /Users/yufeiweng/Downloads/cse169_st
   /opt/homebrew/include/glm/ext/matrix_float4x4_precision.hpp \
   /opt/homebrew/include/glm/ext/matrix_projection.inl \
   /opt/homebrew/include/glm/ext/matrix_transform.inl \
+  /opt/homebrew/include/glm/ext/quaternion_common.inl \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.inl \
+  /opt/homebrew/include/glm/ext/quaternion_relational.inl \
+  /opt/homebrew/include/glm/ext/quaternion_transform.inl \
+  /opt/homebrew/include/glm/ext/quaternion_trigonometric.inl \
+  /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.inl \
   /opt/homebrew/include/glm/ext/vector_bool2.hpp \
   /opt/homebrew/include/glm/ext/vector_bool2_precision.hpp \
@@ -6948,6 +7598,8 @@ CMakeFiles/menv.dir/src/SpringDamper.cpp.o: /Users/yufeiweng/Downloads/cse169_st
   /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
   /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.inl \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
@@ -6956,10 +7608,20 @@ CMakeFiles/menv.dir/src/SpringDamper.cpp.o: /Users/yufeiweng/Downloads/cse169_st
   /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/common.hpp \
   /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec3.hpp \
+  /opt/homebrew/include/glm/detail/type_vec4.hpp \
   /opt/homebrew/include/glm/exponential.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
+  /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/simd/platform.h \
+  /opt/homebrew/include/glm/trigonometric.hpp \
   /opt/homebrew/include/glm/vector_relational.hpp \
   /opt/homebrew/include/glm/detail/compute_vector_relational.hpp \
   /opt/homebrew/include/glm/detail/_fixes.hpp \
@@ -6987,6 +7649,7 @@ CMakeFiles/menv.dir/src/SpringDamper.cpp.o: /Users/yufeiweng/Downloads/cse169_st
   /opt/homebrew/include/glm/detail/type_mat4x2.inl \
   /opt/homebrew/include/glm/detail/type_mat4x3.inl \
   /opt/homebrew/include/glm/detail/type_mat4x4.inl \
+  /opt/homebrew/include/glm/detail/type_quat.inl \
   /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec1.inl \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
@@ -6999,21 +7662,82 @@ CMakeFiles/menv.dir/src/SpringDamper.cpp.o: /Users/yufeiweng/Downloads/cse169_st
   /opt/homebrew/include/glm/fwd.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/qualifier.hpp \
+  /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec2.hpp \
+  /opt/homebrew/include/glm/detail/type_vec3.hpp \
+  /opt/homebrew/include/glm/detail/type_vec4.hpp \
+  /opt/homebrew/include/glm/exponential.hpp \
   /opt/homebrew/include/glm/ext/matrix_clip_space.hpp \
   /opt/homebrew/include/glm/ext/matrix_projection.hpp \
   /opt/homebrew/include/glm/ext/matrix_transform.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_common.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_double.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_double_precision.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_float.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_float_precision.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_relational.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_transform.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_trigonometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
+  /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
+  /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
+  /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/vec1.hpp \
   /opt/homebrew/include/glm/mat4x4.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
   /opt/homebrew/include/glm/vec2.hpp \
   /opt/homebrew/include/glm/vec3.hpp \
   /opt/homebrew/include/glm/vec4.hpp \
+  /opt/homebrew/include/glm/vector_relational.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/gtc/constants.inl \
+  /opt/homebrew/include/glm/gtc/epsilon.hpp \
+  /opt/homebrew/include/glm/gtc/epsilon.inl \
   /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
   /opt/homebrew/include/glm/gtc/matrix_transform.inl \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.inl \
+  /opt/homebrew/include/glm/gtc/type_precision.hpp \
+  /opt/homebrew/include/glm/gtc/type_precision.inl \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.hpp \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.inl \
+  /opt/homebrew/include/glm/gtx/string_cast.hpp \
+  /opt/homebrew/include/glm/gtx/string_cast.inl \
   /opt/homebrew/include/glm/gtx/transform.hpp \
   /opt/homebrew/include/glm/gtx/transform.inl \
   /opt/homebrew/include/glm/integer.hpp \
@@ -7282,6 +8006,7 @@ CMakeFiles/menv.dir/src/Tokenizer.cpp.o: /Users/yufeiweng/Downloads/cse169_start
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/compare \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/concepts \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdio \
@@ -7468,7 +8193,10 @@ CMakeFiles/menv.dir/src/Tokenizer.cpp.o: /Users/yufeiweng/Downloads/cse169_start
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Tokenizer.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/core.h \
   /opt/homebrew/include/GLFW/glfw3.h \
+  /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/qualifier.hpp \
   /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_float.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
@@ -7478,15 +8206,22 @@ CMakeFiles/menv.dir/src/Tokenizer.cpp.o: /Users/yufeiweng/Downloads/cse169_start
   /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_quat.hpp \
+  /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
   /opt/homebrew/include/glm/detail/type_vec3.hpp \
   /opt/homebrew/include/glm/detail/type_vec4.hpp \
+  /opt/homebrew/include/glm/exponential.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
   /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
   /opt/homebrew/include/glm/ext/vector_int2.hpp \
   /opt/homebrew/include/glm/ext/vector_int3.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
   /opt/homebrew/include/glm/ext/vector_uint4.hpp \
@@ -7494,6 +8229,7 @@ CMakeFiles/menv.dir/src/Tokenizer.cpp.o: /Users/yufeiweng/Downloads/cse169_start
   /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
+  /opt/homebrew/include/glm/vector_relational.hpp \
   /opt/homebrew/include/glm/ext/matrix_clip_space.inl \
   /opt/homebrew/include/glm/ext/matrix_double2x2.hpp \
   /opt/homebrew/include/glm/ext/matrix_double2x2_precision.hpp \
@@ -7533,6 +8269,12 @@ CMakeFiles/menv.dir/src/Tokenizer.cpp.o: /Users/yufeiweng/Downloads/cse169_start
   /opt/homebrew/include/glm/ext/matrix_float4x4_precision.hpp \
   /opt/homebrew/include/glm/ext/matrix_projection.inl \
   /opt/homebrew/include/glm/ext/matrix_transform.inl \
+  /opt/homebrew/include/glm/ext/quaternion_common.inl \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.inl \
+  /opt/homebrew/include/glm/ext/quaternion_relational.inl \
+  /opt/homebrew/include/glm/ext/quaternion_transform.inl \
+  /opt/homebrew/include/glm/ext/quaternion_trigonometric.inl \
+  /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.inl \
   /opt/homebrew/include/glm/ext/vector_bool2.hpp \
   /opt/homebrew/include/glm/ext/vector_bool2_precision.hpp \
@@ -7558,6 +8300,8 @@ CMakeFiles/menv.dir/src/Tokenizer.cpp.o: /Users/yufeiweng/Downloads/cse169_start
   /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
   /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.inl \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
@@ -7566,10 +8310,20 @@ CMakeFiles/menv.dir/src/Tokenizer.cpp.o: /Users/yufeiweng/Downloads/cse169_start
   /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/common.hpp \
   /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec3.hpp \
+  /opt/homebrew/include/glm/detail/type_vec4.hpp \
   /opt/homebrew/include/glm/exponential.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
+  /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/simd/platform.h \
+  /opt/homebrew/include/glm/trigonometric.hpp \
   /opt/homebrew/include/glm/vector_relational.hpp \
   /opt/homebrew/include/glm/detail/compute_vector_relational.hpp \
   /opt/homebrew/include/glm/detail/_fixes.hpp \
@@ -7597,6 +8351,7 @@ CMakeFiles/menv.dir/src/Tokenizer.cpp.o: /Users/yufeiweng/Downloads/cse169_start
   /opt/homebrew/include/glm/detail/type_mat4x2.inl \
   /opt/homebrew/include/glm/detail/type_mat4x3.inl \
   /opt/homebrew/include/glm/detail/type_mat4x4.inl \
+  /opt/homebrew/include/glm/detail/type_quat.inl \
   /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec1.inl \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
@@ -7609,21 +8364,82 @@ CMakeFiles/menv.dir/src/Tokenizer.cpp.o: /Users/yufeiweng/Downloads/cse169_start
   /opt/homebrew/include/glm/fwd.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/qualifier.hpp \
+  /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec2.hpp \
+  /opt/homebrew/include/glm/detail/type_vec3.hpp \
+  /opt/homebrew/include/glm/detail/type_vec4.hpp \
+  /opt/homebrew/include/glm/exponential.hpp \
   /opt/homebrew/include/glm/ext/matrix_clip_space.hpp \
   /opt/homebrew/include/glm/ext/matrix_projection.hpp \
   /opt/homebrew/include/glm/ext/matrix_transform.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_common.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_double.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_double_precision.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_float.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_float_precision.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_relational.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_transform.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_trigonometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
+  /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
+  /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
+  /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/vec1.hpp \
   /opt/homebrew/include/glm/mat4x4.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
   /opt/homebrew/include/glm/vec2.hpp \
   /opt/homebrew/include/glm/vec3.hpp \
   /opt/homebrew/include/glm/vec4.hpp \
+  /opt/homebrew/include/glm/vector_relational.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/gtc/constants.inl \
+  /opt/homebrew/include/glm/gtc/epsilon.hpp \
+  /opt/homebrew/include/glm/gtc/epsilon.inl \
   /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
   /opt/homebrew/include/glm/gtc/matrix_transform.inl \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.inl \
+  /opt/homebrew/include/glm/gtc/type_precision.hpp \
+  /opt/homebrew/include/glm/gtc/type_precision.inl \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.hpp \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.inl \
+  /opt/homebrew/include/glm/gtx/string_cast.hpp \
+  /opt/homebrew/include/glm/gtx/string_cast.inl \
   /opt/homebrew/include/glm/gtx/transform.hpp \
   /opt/homebrew/include/glm/gtx/transform.inl \
   /opt/homebrew/include/glm/integer.hpp \
@@ -7893,6 +8709,7 @@ CMakeFiles/menv.dir/src/Triangle.cpp.o: /Users/yufeiweng/Downloads/cse169_starte
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/compare \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/concepts \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdio \
@@ -8081,7 +8898,10 @@ CMakeFiles/menv.dir/src/Triangle.cpp.o: /Users/yufeiweng/Downloads/cse169_starte
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/Triangle.h \
   /Users/yufeiweng/Downloads/cse169_starter_mac_project4/include/core.h \
   /opt/homebrew/include/GLFW/glfw3.h \
+  /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/qualifier.hpp \
   /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_float.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
@@ -8091,15 +8911,22 @@ CMakeFiles/menv.dir/src/Triangle.cpp.o: /Users/yufeiweng/Downloads/cse169_starte
   /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_quat.hpp \
+  /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
   /opt/homebrew/include/glm/detail/type_vec3.hpp \
   /opt/homebrew/include/glm/detail/type_vec4.hpp \
+  /opt/homebrew/include/glm/exponential.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
   /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
   /opt/homebrew/include/glm/ext/vector_int2.hpp \
   /opt/homebrew/include/glm/ext/vector_int3.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
   /opt/homebrew/include/glm/ext/vector_uint4.hpp \
@@ -8107,6 +8934,7 @@ CMakeFiles/menv.dir/src/Triangle.cpp.o: /Users/yufeiweng/Downloads/cse169_starte
   /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
+  /opt/homebrew/include/glm/vector_relational.hpp \
   /opt/homebrew/include/glm/ext/matrix_clip_space.inl \
   /opt/homebrew/include/glm/ext/matrix_double2x2.hpp \
   /opt/homebrew/include/glm/ext/matrix_double2x2_precision.hpp \
@@ -8146,6 +8974,12 @@ CMakeFiles/menv.dir/src/Triangle.cpp.o: /Users/yufeiweng/Downloads/cse169_starte
   /opt/homebrew/include/glm/ext/matrix_float4x4_precision.hpp \
   /opt/homebrew/include/glm/ext/matrix_projection.inl \
   /opt/homebrew/include/glm/ext/matrix_transform.inl \
+  /opt/homebrew/include/glm/ext/quaternion_common.inl \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.inl \
+  /opt/homebrew/include/glm/ext/quaternion_relational.inl \
+  /opt/homebrew/include/glm/ext/quaternion_transform.inl \
+  /opt/homebrew/include/glm/ext/quaternion_trigonometric.inl \
+  /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.inl \
   /opt/homebrew/include/glm/ext/vector_bool2.hpp \
   /opt/homebrew/include/glm/ext/vector_bool2_precision.hpp \
@@ -8171,6 +9005,8 @@ CMakeFiles/menv.dir/src/Triangle.cpp.o: /Users/yufeiweng/Downloads/cse169_starte
   /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
   /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.inl \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
@@ -8179,10 +9015,20 @@ CMakeFiles/menv.dir/src/Triangle.cpp.o: /Users/yufeiweng/Downloads/cse169_starte
   /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/common.hpp \
   /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec3.hpp \
+  /opt/homebrew/include/glm/detail/type_vec4.hpp \
   /opt/homebrew/include/glm/exponential.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
+  /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/simd/platform.h \
+  /opt/homebrew/include/glm/trigonometric.hpp \
   /opt/homebrew/include/glm/vector_relational.hpp \
   /opt/homebrew/include/glm/detail/compute_vector_relational.hpp \
   /opt/homebrew/include/glm/detail/_fixes.hpp \
@@ -8210,6 +9056,7 @@ CMakeFiles/menv.dir/src/Triangle.cpp.o: /Users/yufeiweng/Downloads/cse169_starte
   /opt/homebrew/include/glm/detail/type_mat4x2.inl \
   /opt/homebrew/include/glm/detail/type_mat4x3.inl \
   /opt/homebrew/include/glm/detail/type_mat4x4.inl \
+  /opt/homebrew/include/glm/detail/type_quat.inl \
   /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec1.inl \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
@@ -8222,21 +9069,82 @@ CMakeFiles/menv.dir/src/Triangle.cpp.o: /Users/yufeiweng/Downloads/cse169_starte
   /opt/homebrew/include/glm/fwd.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/common.hpp \
+  /opt/homebrew/include/glm/detail/qualifier.hpp \
+  /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec2.hpp \
+  /opt/homebrew/include/glm/detail/type_vec3.hpp \
+  /opt/homebrew/include/glm/detail/type_vec4.hpp \
+  /opt/homebrew/include/glm/exponential.hpp \
   /opt/homebrew/include/glm/ext/matrix_clip_space.hpp \
   /opt/homebrew/include/glm/ext/matrix_projection.hpp \
   /opt/homebrew/include/glm/ext/matrix_transform.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_common.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_double.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_double_precision.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_float.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_float_precision.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_relational.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_transform.hpp \
+  /opt/homebrew/include/glm/ext/quaternion_trigonometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
+  /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
+  /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
+  /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/vec1.hpp \
   /opt/homebrew/include/glm/mat4x4.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
   /opt/homebrew/include/glm/vec2.hpp \
   /opt/homebrew/include/glm/vec3.hpp \
   /opt/homebrew/include/glm/vec4.hpp \
+  /opt/homebrew/include/glm/vector_relational.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/gtc/constants.inl \
+  /opt/homebrew/include/glm/gtc/epsilon.hpp \
+  /opt/homebrew/include/glm/gtc/epsilon.inl \
   /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
   /opt/homebrew/include/glm/gtc/matrix_transform.inl \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.inl \
+  /opt/homebrew/include/glm/gtc/type_precision.hpp \
+  /opt/homebrew/include/glm/gtc/type_precision.inl \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.hpp \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.inl \
+  /opt/homebrew/include/glm/gtx/string_cast.hpp \
+  /opt/homebrew/include/glm/gtx/string_cast.inl \
   /opt/homebrew/include/glm/gtx/transform.hpp \
   /opt/homebrew/include/glm/gtx/transform.inl \
   /opt/homebrew/include/glm/integer.hpp \
@@ -8506,6 +9414,7 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/compare \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/concepts \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdio \
@@ -8722,6 +9631,7 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
   /opt/homebrew/include/glm/detail/type_quat.hpp \
+  /opt/homebrew/include/glm/detail/type_vec1.hpp \
   /opt/homebrew/include/glm/detail/type_vec2.hpp \
   /opt/homebrew/include/glm/detail/type_vec3.hpp \
   /opt/homebrew/include/glm/detail/type_vec4.hpp \
@@ -8730,10 +9640,12 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
   /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
   /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
   /opt/homebrew/include/glm/ext/vector_int2.hpp \
   /opt/homebrew/include/glm/ext/vector_int3.hpp \
   /opt/homebrew/include/glm/ext/vector_int4.hpp \
   /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
   /opt/homebrew/include/glm/ext/vector_uint2.hpp \
   /opt/homebrew/include/glm/ext/vector_uint3.hpp \
   /opt/homebrew/include/glm/ext/vector_uint4.hpp \
@@ -8876,12 +9788,21 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/fwd.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
+  /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/glm.hpp \
   /opt/homebrew/include/glm/common.hpp \
   /opt/homebrew/include/glm/detail/qualifier.hpp \
   /opt/homebrew/include/glm/detail/setup.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat2x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x2.hpp \
   /opt/homebrew/include/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/include/glm/detail/type_mat3x4.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x2.hpp \
+  /opt/homebrew/include/glm/detail/type_mat4x3.hpp \
   /opt/homebrew/include/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/include/glm/detail/type_vec2.hpp \
   /opt/homebrew/include/glm/detail/type_vec3.hpp \
   /opt/homebrew/include/glm/detail/type_vec4.hpp \
   /opt/homebrew/include/glm/exponential.hpp \
@@ -8898,10 +9819,30 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/ext/quaternion_transform.hpp \
   /opt/homebrew/include/glm/ext/quaternion_trigonometric.hpp \
   /opt/homebrew/include/glm/ext/scalar_constants.hpp \
+  /opt/homebrew/include/glm/ext/scalar_int_sized.hpp \
+  /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1.hpp \
+  /opt/homebrew/include/glm/ext/vector_bool1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1.hpp \
+  /opt/homebrew/include/glm/ext/vector_double1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1.hpp \
+  /opt/homebrew/include/glm/ext/vector_float1_precision.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1.hpp \
+  /opt/homebrew/include/glm/ext/vector_int1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_int4_sized.hpp \
   /opt/homebrew/include/glm/ext/vector_relational.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint1_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint3_sized.hpp \
+  /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp \
   /opt/homebrew/include/glm/geometric.hpp \
   /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/gtc/matrix_transform.hpp \
+  /opt/homebrew/include/glm/gtc/quaternion.hpp \
+  /opt/homebrew/include/glm/gtc/vec1.hpp \
   /opt/homebrew/include/glm/mat4x4.hpp \
   /opt/homebrew/include/glm/matrix.hpp \
   /opt/homebrew/include/glm/trigonometric.hpp \
@@ -8909,6 +9850,7 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/vec3.hpp \
   /opt/homebrew/include/glm/vec4.hpp \
   /opt/homebrew/include/glm/vector_relational.hpp \
+  /opt/homebrew/include/glm/gtc/constants.hpp \
   /opt/homebrew/include/glm/gtc/constants.inl \
   /opt/homebrew/include/glm/gtc/epsilon.hpp \
   /opt/homebrew/include/glm/gtc/epsilon.inl \
@@ -8916,10 +9858,16 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
   /opt/homebrew/include/glm/gtc/matrix_transform.inl \
   /opt/homebrew/include/glm/gtc/quaternion.hpp \
   /opt/homebrew/include/glm/gtc/quaternion.inl \
+  /opt/homebrew/include/glm/gtc/type_precision.hpp \
+  /opt/homebrew/include/glm/gtc/type_precision.inl \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.hpp \
   /opt/homebrew/include/glm/gtx/compatibility.hpp \
   /opt/homebrew/include/glm/gtx/compatibility.inl \
+  /opt/homebrew/include/glm/gtx/dual_quaternion.inl \
   /opt/homebrew/include/glm/gtx/euler_angles.hpp \
   /opt/homebrew/include/glm/gtx/euler_angles.inl \
+  /opt/homebrew/include/glm/gtx/string_cast.hpp \
+  /opt/homebrew/include/glm/gtx/string_cast.inl \
   /opt/homebrew/include/glm/gtx/transform.hpp \
   /opt/homebrew/include/glm/gtx/transform.inl \
   /opt/homebrew/include/glm/integer.hpp \
@@ -8963,13 +9911,19 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
 
 /opt/homebrew/include/glm/gtx/transform.hpp:
 
+/opt/homebrew/include/glm/gtx/string_cast.inl:
+
+/opt/homebrew/include/glm/gtx/string_cast.hpp:
+
 /opt/homebrew/include/glm/gtx/euler_angles.inl:
 
 /opt/homebrew/include/glm/gtx/euler_angles.hpp:
 
-/opt/homebrew/include/glm/gtc/quaternion.inl:
+/opt/homebrew/include/glm/gtc/type_precision.inl:
 
-/opt/homebrew/include/glm/gtc/quaternion.hpp:
+/opt/homebrew/include/glm/gtc/type_precision.hpp:
+
+/opt/homebrew/include/glm/gtc/quaternion.inl:
 
 /opt/homebrew/include/glm/gtc/epsilon.inl:
 
@@ -8980,6 +9934,22 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
 /opt/homebrew/include/glm/vec2.hpp:
 
 /opt/homebrew/include/glm/mat4x4.hpp:
+
+/opt/homebrew/include/glm/gtc/vec1.hpp:
+
+/opt/homebrew/include/glm/gtc/quaternion.hpp:
+
+/opt/homebrew/include/glm/ext/vector_int1_sized.hpp:
+
+/opt/homebrew/include/glm/ext/vector_float1_precision.hpp:
+
+/opt/homebrew/include/glm/ext/vector_float1.hpp:
+
+/opt/homebrew/include/glm/ext/vector_double1_precision.hpp:
+
+/opt/homebrew/include/glm/ext/vector_double1.hpp:
+
+/opt/homebrew/include/glm/ext/vector_bool1.hpp:
 
 /opt/homebrew/include/glm/ext/quaternion_trigonometric.hpp:
 
@@ -9051,8 +10021,6 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
 
 /opt/homebrew/include/glm/ext/matrix_float4x4_precision.hpp:
 
-/opt/homebrew/include/glm/ext/matrix_float4x3_precision.hpp:
-
 /opt/homebrew/include/glm/ext/matrix_float4x3.hpp:
 
 /opt/homebrew/include/glm/ext/matrix_float4x2_precision.hpp:
@@ -9096,6 +10064,10 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
 /opt/homebrew/include/glm/ext/vector_uint2.hpp:
 
 /opt/homebrew/include/glm/ext/vector_relational.hpp:
+
+/opt/homebrew/include/glm/ext/matrix_float4x3_precision.hpp:
+
+/opt/homebrew/include/glm/ext/vector_int1.hpp:
 
 /opt/homebrew/include/glm/ext/scalar_int_sized.hpp:
 
@@ -9148,6 +10120,8 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_stdlib.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale.h:
+
+/opt/homebrew/include/glm/gtx/dual_quaternion.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/wchar.h:
 
@@ -9275,6 +10249,8 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h:
 
+/opt/homebrew/include/glm/ext/vector_uint1.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/next.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/move_iterator.h:
@@ -9376,6 +10352,8 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/rotate.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/reverse.h:
+
+/opt/homebrew/include/glm/gtx/dual_quaternion.inl:
 
 /opt/homebrew/include/glm/fwd.hpp:
 
@@ -9746,6 +10724,8 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/mach/memory_object_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/clamp.h:
+
+/opt/homebrew/include/glm/ext/vector_uint1_sized.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGColor.h:
 
@@ -10128,6 +11108,8 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
 /opt/homebrew/include/glm/ext/matrix_float2x2_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOTypes.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdarg:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Security.framework/Headers/oidscrl.h:
 
@@ -11010,6 +11992,8 @@ CMakeFiles/menv.dir/src/Window.cpp.o: /Users/yufeiweng/Downloads/cse169_starter_
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/weak_result_type.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_pid_t.h:
+
+/opt/homebrew/include/glm/ext/vector_bool1_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Components.h:
 
