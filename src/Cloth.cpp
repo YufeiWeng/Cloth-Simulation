@@ -5,8 +5,8 @@ Cloth::Cloth(glm::vec3 wind) {
     model = glm::mat4(1.0f);
     this->wind = wind;
 
-    int num_particles_width = 11;
-    int num_particles_height = 11;
+    int num_particles_width = 15;
+    int num_particles_height = 15;
     float width = 5.0f; // Width of the cloth
     float height = 5.0f; // Height of the cloth
 

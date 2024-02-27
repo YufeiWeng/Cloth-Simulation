@@ -41,7 +41,7 @@ bool Window::initializeObjects() {
     // cube = new Cube();
     // box = new Box();
     ground = new Ground();
-    wind = glm::vec3(0.0f, 0.0f, 5.0f);
+    wind = glm::vec3(0.0f, 0.0f, -4.0f);
     cloth = new Cloth(wind);
     // cube = new Cube(glm::vec3(-1, 0, -2), glm::vec3(1, 1, 1));
 
@@ -134,7 +134,7 @@ void Window::idleCallback() {
 
     // cube->update();
     // box->update();
-    float deltaTime = 1.0f / 600.0f;
+    float deltaTime = 1.0f / 1200.0f;
     cloth->update(deltaTime);
     // cloth->update(float(1/60));
     
@@ -235,6 +235,32 @@ void Window::keyCallback(GLFWwindow* window, int key, int scancode, int action, 
             case GLFW_KEY_S:
                 cloth->move(glm::vec3(0.0f, 0.0f , 0.1f));
                 break;
+
+            case GLFW_KEY_LEFT:{
+                glm::vec3 o = (cloth->particles[0]->Position + cloth->particles[cloth->num_particles_width]->Position) / 2.0f;
+                for (Particle* p : cloth->particles) {
+                    if (p->Fixed) {
+                        glm::mat4 model = glm::translate(glm::mat4(1.0f), -o);
+                        model = glm::rotate(model, glm::radians(5.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+                        model = glm::translate(model, o);
+                        p->Position = model * glm::vec4(p->Position, 1.0);
+                    }
+                }
+                break;
+            }
+
+            // case GLFW_KEY_RIGHT:{
+            //     glm::vec3 o = (cloth->particles[0]->Position + cloth->particles[cloth->num_particles_width]->Position) / 2.0f;
+            //     for (Particle* p : cloth->particles) {
+            //         if (p->Fixed) {
+            //             glm::mat4 model = glm::translate(glm::mat4(1.0f), -o);
+            //             model = glm::rotate(model, glm::radians(-5.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+            //             model = glm::translate(model, o);
+            //             p->Position = model * glm::vec4(p->Position, 1.0);
+            //         }
+            //     }
+            //     break;
+            // }
 
             default:
                 break;
