@@ -41,7 +41,7 @@ bool Window::initializeObjects() {
     // cube = new Cube();
     // box = new Box();
     ground = new Ground();
-    wind = glm::vec3(0.0f, 0.0f, -4.0f);
+    wind = glm::vec3(0.0f, 0.0f, 5.0f);
     cloth = new Cloth(wind);
     // cube = new Cube(glm::vec3(-1, 0, -2), glm::vec3(1, 1, 1));
 
@@ -237,10 +237,20 @@ void Window::keyCallback(GLFWwindow* window, int key, int scancode, int action, 
                 break;
 
             case GLFW_KEY_LEFT:{
-                glm::vec3 o = (cloth->particles[0]->Position + cloth->particles[cloth->num_particles_width]->Position) / 2.0f;
+                // fix a bug by initalize a value for num_particles_width at very beginning
+                glm::vec3 o = (cloth->particles[cloth->particles.size()-1]->Position 
+                + cloth->particles[cloth->particles.size() - cloth->num_particles_width]->Position) 
+                / 2.0f;
+                // std::cout << "top right: " << glm::to_string(cloth->particles[cloth->particles.size()-1]->Position) << std::endl;
+                // std::cout << "top left: " << glm::to_string(cloth->particles[cloth->particles.size() 
+                // - cloth->num_particles_width ]->Position) << std::endl;
+                // std::cout << "o: " << glm::to_string(o) << std::endl;
+                // // << std::endl;
+
                 for (Particle* p : cloth->particles) {
                     if (p->Fixed) {
-                        glm::mat4 model = glm::translate(glm::mat4(1.0f), -o);
+                        glm::mat4 model;
+                        model = glm::translate(glm::mat4(1.0f), -o);
                         model = glm::rotate(model, glm::radians(5.0f), glm::vec3(0.0f, 1.0f, 0.0f));
                         model = glm::translate(model, o);
                         p->Position = model * glm::vec4(p->Position, 1.0);
@@ -249,18 +259,28 @@ void Window::keyCallback(GLFWwindow* window, int key, int scancode, int action, 
                 break;
             }
 
-            // case GLFW_KEY_RIGHT:{
-            //     glm::vec3 o = (cloth->particles[0]->Position + cloth->particles[cloth->num_particles_width]->Position) / 2.0f;
-            //     for (Particle* p : cloth->particles) {
-            //         if (p->Fixed) {
-            //             glm::mat4 model = glm::translate(glm::mat4(1.0f), -o);
-            //             model = glm::rotate(model, glm::radians(-5.0f), glm::vec3(0.0f, 1.0f, 0.0f));
-            //             model = glm::translate(model, o);
-            //             p->Position = model * glm::vec4(p->Position, 1.0);
-            //         }
-            //     }
-            //     break;
-            // }
+            case GLFW_KEY_RIGHT:{
+                // fix a bug by initalize a value for num_particles_width at very beginning
+                glm::vec3 o = (cloth->particles[cloth->particles.size()-1]->Position 
+                + cloth->particles[cloth->particles.size() - cloth->num_particles_width]->Position) 
+                / 2.0f;
+                // std::cout << "top right: " << glm::to_string(cloth->particles[cloth->particles.size()-1]->Position) << std::endl;
+                // std::cout << "top left: " << glm::to_string(cloth->particles[cloth->particles.size() 
+                // - cloth->num_particles_width ]->Position) << std::endl;
+                // std::cout << "o: " << glm::to_string(o) << std::endl;
+                // // << std::endl;
+
+                for (Particle* p : cloth->particles) {
+                    if (p->Fixed) {
+                        glm::mat4 model;
+                        model = glm::translate(glm::mat4(1.0f), -o);
+                        model = glm::rotate(model, glm::radians(-5.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+                        model = glm::translate(model, o);
+                        p->Position = model * glm::vec4(p->Position, 1.0);
+                    }
+                }
+                break;
+            }
 
             default:
                 break;

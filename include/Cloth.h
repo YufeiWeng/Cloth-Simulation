@@ -17,8 +17,8 @@ class Cloth {
     vector<Triangle*> triangles;
     float height;
     float width;
-    int num_particles_height;
-    int num_particles_width;
+    int num_particles_height = 15;
+    int num_particles_width = 15;
 
 
     // opengl
